@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<PccMsg>
+	<msg0001 Type="I">This is a Information.</msg0001>
+	<msg0002 Type="E">This is a Error message.</msg0002>
+	<msg0003 Type="W">This is a Waring message.</msg0003>
+	<msg0004 Type="I">Add New Successful！</msg0004>
+	<msg0006 Type="E">Delete fail！</msg0006>
+	<msg0007 Type="E">Update fail！</msg0007>
+	<msg0009 Type="I">Update Successful！</msg0009>
+	<SystemManager>
+		<msg0005 Type="I">Do you want delete the {0} menu data？</msg0005>
+		<msg0008 Type="I">Do you want delete the {0} user authorize for this applcation？</msg0008>
+		<msg0010 Type="I">Do you want delete the {0} user？</msg0010>
+		<msg0011 Type="I">Do you want delete the {0} and all relationship by this application？</msg0011>
+	</SystemManager>
+</PccMsg> 

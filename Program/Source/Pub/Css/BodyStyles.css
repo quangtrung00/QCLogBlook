@@ -1,0 +1,1039 @@
+﻿BODY
+{
+    /*BACKGROUND-COLOR: #DCF1F1;*/
+    /*color: black;
+    font-family: Verdana;
+    font-size: 9pt;
+    margin: 0px;
+    border: 0;
+    overflow: auto;
+    scrollbar-face-color: #eaeaea;
+    scrollbar-shadow-color: #C3C3C4;
+    scrollbar-highlight-color: cccccc;
+    scrollbar-3dlight-color: #C3C3C4;
+    scrollbar-darkshadow-color: #efefef;
+    scrollbar-track-color: #efefef;
+    scrollbar-arrow-color: #cccccc; 
+    text-align: left;
+    background: url('../../Images/LoginPage/bgBody.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-position: right bottom;
+    background-color:#ffffff*/
+}
+TABLE
+{
+    font-family: Verdana;
+    font-size: 9pt;
+}
+.MjMeal_ActDocTB
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    border: 0;
+    background-color: #fcffe8;
+}
+.MjMeal_ActDocTB1
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    border: 0;
+    background-color: #fefff9;
+}
+.SourceTitlePanel
+{
+    background-color: #cccc99;
+    color: #006699;
+    font-family: Verdana, Arial;
+    font-size: 14pt;
+    font-weight: bolder;
+    height: 30px;
+    letter-spacing: 1pt;
+    padding: 6px;
+}
+.SourcePanel
+{
+    color: black;
+    font-family: 'Lucida Console';
+    font-size: 9pt;
+    padding: 4px;
+}
+
+.abort
+{
+    color: red;
+    padding-left: 10px;
+}
+.info
+{
+    color: green;
+    font-family: Verdana, Arial;
+}
+.smalltext
+{
+    color: gray;
+    font-family: Verdana, Arial;
+    font-size: 9pt;
+    line-height: 140%;
+}
+TD.StockHeading
+{
+    border-bottom: black 1px inset;
+    background-color: white;
+    color: black;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: xx-small;
+    font-weight: bold;
+    padding-left: 3pt;
+    padding-right: 0pt;
+}
+TD.StockHeadingAmt
+{
+    border-bottom: black 1px inset;
+    background-color: white;
+    color: black;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: xx-small;
+    font-weight: bold;
+    padding-left: 3pt;
+    padding-right: 0pt;
+    text-align: right;
+}
+TD.StockItem
+{
+    border-right: silver thin solid;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: xx-small;
+    height: 14pt;
+    padding-left: 3pt;
+    padding-right: 0pt;
+}
+TD.StockItemAmt
+{
+    border-right: silver thin solid;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: xx-small;
+    height: 14pt;
+    padding-left: 3pt;
+    padding-right: 0pt;
+    text-align: right;
+}
+TD.StockSpace
+{
+    background-color: #999999;
+    font-family: Tahoma, Arial;
+    font-size: x-small;
+}
+TD.StockItemNoBorder
+{
+    border-top: #ffffe8 thick solid;
+    border-right: #FFCC00 thin solid;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: xx-small;
+    height: 14pt;
+    padding-left: 3pt;
+    padding-right: 0pt;
+}
+TD.StockItemNoBorderAmt
+{
+    border-top: #ffffe8 thick solid;
+    border-right: #FFCC00 thin solid;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: xx-small;
+    height: 14pt;
+    padding-left: 3pt;
+    padding-right: 0pt;
+    text-align: right;
+}
+SPAN.BulletNumber
+{
+    color: #cc9933;
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+}
+.button
+{
+    color: #006666;
+    cursor: pointer;
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+}
+.section
+{
+    color: #cc6600;
+    font-family: Verdana;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.loginsection
+{
+    color: #ffcc66;
+    font-family: Verdana;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+H1
+{
+    color: midnightblue;
+    font-size: 10pt;
+}
+H2
+{
+    color: #cc9933;
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+}
+H3
+{
+    color: #cc9933;
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+}
+TD.navmenu
+{
+    color: chocolate;
+    cursor: default;
+    font-family: Verdana, Arial;
+    font-size: 9pt;
+    font-weight: bolder;
+}
+
+TD.title
+{
+    background-color: #cccc99;
+    color: #006699;
+    font-family: Verdana, Arial;
+    font-size: 16pt;
+    font-weight: bolder;
+    height: 30px;
+    letter-spacing: 1pt;
+    padding-right: 20px;
+    text-align: right;
+}
+INPUT
+{
+    font-size: 9pt;
+}
+TD.menuitemover
+{
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Arial;
+    font-size: 9pt;
+    padding-left: 10px;
+}
+TD.menuheading
+{
+    font-weight: bold;
+    font-size: 10pt;
+    cursor: default;
+    color: chocolate;
+    font-style: italic;
+    font-family: Verdana, Arial;
+}
+
+SPAN.error
+{
+    color: red;
+    font-family: Verdana, Arial;
+}
+A
+{
+    font-weight: bold;
+    color: #7A1A7A; /*firebrick*/
+    font-family: Verdana, Arial;
+    text-decoration: none;
+}
+A:visited
+{
+    color: #663333;
+}
+A:active
+{
+    color: lawngreen;
+}
+A:hover
+{
+    font-weight: bold;
+    color: tomato;
+    background-color: #ffffcc;
+}
+A.error
+{
+    color: red;
+    text-decoration: none;
+    font-family: Verdana, Arial;
+}
+#error A:visited
+{
+    color: red;
+}
+#error A:active
+{
+    color: red;
+    text-decoration: underline;
+}
+#error A:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+Table.topmenu TD
+{
+    /*padding-left: 40px;*/
+    font-weight: bold;
+    font-size: 11pt;
+    padding-bottom: 0px;
+    color: red;
+    margin-right: 10px;
+    font-family: Verdana;
+}
+Table.topmenu A
+{
+    color: #000000;
+    text-decoration: none;
+}
+Table.topmenu A:visited
+{
+    color: #000000;
+}
+Table.topmenu A:active
+{
+    color: #000000;
+    text-decoration: underline;
+}
+Table.topmenu A:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+#menu A
+{
+    color: white;
+    text-decoration: none;
+}
+#menu A:visited
+{
+    color: white;
+}
+#menu A:active
+{
+    color: #006699;
+    text-decoration: underline;
+}
+#menu A:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+A.menuitem
+{
+    color: black;
+    padding-left: 10px;
+    text-align: right;
+}
+A.menuitem:hover
+{
+    color: #FFCC00;
+    padding-left: 10px;
+    text-align: right;
+}
+
+TD.menuitem
+{
+    padding-left: 10px;
+    font-size: 9pt;
+    color: limegreen;
+    text-align: right;
+}
+
+TD.ColumnHeader
+{
+    background-color: gray;
+    color: white;
+    font-family: Verdana, Arial;
+}
+TD.ColumnHeaderAmt
+{
+    background-color: gray;
+    color: white;
+    font-family: Verdana, Arial;
+    text-align: right;
+}
+TD.logo
+{
+    background-color: #006699;
+    background-image: url(images/FMBanner.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+TD.loginBanner
+{
+    background-color: #006699;
+    background-image: url(images/Login_FMBanner1.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+TD.hundred
+{
+    background-color: #006699;
+    background-image: url(images/HundredShares.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.DefaultBg
+{
+    background-color: #DCF1F1;
+    background-image: url(../../images/DefaultBg.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.BodyBg
+{
+    background-color: #DCF1F1;
+    background-image: url(../../images/ImgBanner/nenpart.jpg);
+    background-position: left top;
+    text-align: left;
+}
+
+TD.topLeft1
+{
+    background-image: url(../../images/pcc_01.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+TD.topLeft2
+{
+    background-image: url(../../images/pcc_02.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+TD.topLeft3
+{
+    background-color: #F7FBFF;
+    background-image: url(../../images/pcc_03.gif);
+    background-position: left top;
+    background-repeat: repeat-x;
+    text-align: left;
+}
+TD.topLeft4
+{
+    background-color: #DCF1F1;
+    background-image: url(../../images/bg-earth.gif);
+    background-position: left top;
+    background-repeat: repeat-x;
+    text-align: left;
+}
+
+TD.topMiddle
+{
+    background-color: #F7FBFF;
+    background-image: url(../../images/pcc_03.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+TD.topRight
+{
+    background-color: #F7FBFF;
+    background-image: url(../../images/pcc_04.gif);
+    background-position: left top;
+    text-align: left;
+}
+TD.treebg
+{
+    background-color: #E6F5F5;
+}
+
+.ActDocTB
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    border: 0;
+    background-color: #000000;
+}
+.ActDocTD1
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    text-indent: 8pt;
+    padding-left: 2pt;
+    background-color: #eeeeee;
+}
+.ActDocTD2
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    background-color: #aaaadd;
+}
+.ActDocTD3
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    padding-left: 2pt;
+    background-color: #ffffff;
+}
+
+.GridTB
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1pt solid #000000;
+}
+
+.DListHeaderTD
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    background-color: #aaaadd;
+}
+.DListItemTD
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    padding-left: 2pt;
+    background-color: #ffffff;
+}
+.DListAlternatingTD
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    padding-left: 2pt;
+    background-color: #eeeeee;
+}
+.DGridTD
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    padding-left: 2pt;
+    padding-right: 2pt;
+    padding-bottom: 2pt;
+    padding-top: 2pt;
+    background-color: #ffffff;
+}
+.GridItem
+{
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-bottom: 5pt;
+    padding-top: 5pt;
+    line-height: 12pt;
+}
+.off
+{
+    display: none;
+}
+.TDShowHeader
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFC3A2;
+}
+.TDShowItem
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    padding-left: 3pt;
+    padding-right: 3pt;
+    padding-bottom: 3pt;
+    padding-top: 3pt;
+    line-height: 10pt;
+    background-color: #ffffff;
+}
+
+.TDShowDiss
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #d9e0ee;
+}
+
+.TxtStyle
+{
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px groove #000000; /*平面solid*/
+    height: 20px;
+}
+
+.TextareaStyle
+{
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #000000;
+    height: 300px;
+    scrollbar-face-color: #C9DBDC;
+    scrollbar-shadow-color: #C3C3C4;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-3dlight-color: #C3C3C4;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: #e0e4ff;
+    scrollbar-arrow-color: #ffc575;
+}
+
+A.GridHeaderLink:link
+{
+    font-size: 10pt;
+    line-height: 15pt;
+    text-decoration: none;
+}
+A.GridHeaderLink:visited
+{
+    font-size: 10pt;
+    line-height: 15pt;
+    text-decoration: none;
+}
+A.GridHeaderLink:hover
+{
+    font-size: 10pt;
+    line-height: 15pt;
+    text-decoration: underline;
+}
+A.GridHeaderLink:active
+{
+    font-size: 10pt;
+    line-height: 15pt;
+    text-decoration: underline;
+}
+
+A.TextLink:link
+{
+    font-size: 9pt;
+    color: #000000;
+    text-decoration: none;
+}
+A.TextLink:visited
+{
+    font-size: 9pt;
+    color: #000000;
+    text-decoration: none;
+}
+A.TextLink:hover
+{
+    font-size: 9pt;
+    color: #800000;
+    text-decoration: underline;
+}
+A.TextLink:active
+{
+    font-size: 9pt;
+    color: #800000;
+    text-decoration: underline;
+}
+
+
+.bfffa00c
+{
+    font-weight: bold;
+    background: #ffffff;
+    color: #aa0000;
+    text-align: center;
+}
+.eee000
+{
+    background: #eeeeee;
+}
+.fff000
+{
+    background: #ffffff;
+}
+.ffC000
+{
+    background: #FFC3A2;
+}
+.ffd000
+{
+    background: #fffde3;
+}
+.808000
+{
+    background: #808080;
+}
+.f3f000
+{
+    background: #F3F3F3;
+}
+.c4c000
+{
+    background: #c4c4c4;
+}
+.f2f000
+{
+    background: #f2f2f2;
+}
+.CCC000
+{
+    background: #CCCCCC;
+}
+.EBE000
+{
+    background: #EBEBEB;
+}
+.f8f000
+{
+    background: #f8f8f8;
+}
+.DDE000
+{
+    background: #D9D9E6;
+}
+.EEF000
+{
+    background: #EEEEF5;
+}
+
+.9FC000
+{
+    background: #9fc84d;
+}
+.E2F000
+{
+    background: #e2fdc7;
+}
+.D5D000
+{
+    background: #d5d549;
+}
+.E7E000
+{
+    background: #e7e7a4;
+}
+.D9D000
+{
+    background: #d9d974;
+}
+.A8B000
+{
+    background: #a8b9ed;
+}
+.D3D000
+{
+    background: #d3dbf2;
+}
+.BDC000
+{
+    background: #bdcbf7;
+}
+.000000
+{
+    background: #000000;
+}
+
+
+.FactBG
+{
+    background: url(Images/bg-earth.gif);
+}
+.Button
+{
+    color: #000000;
+    background: #cccccc;
+    border: 1px solid #000000;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFFFF', EndColorStr='#FFCCCCCC');
+    font-size: 9pt;
+    padding: 0 0 0 2pt;
+    font-weight: lighter;
+    font-family: verdana;
+    height: 20px;
+    cursor: pointer;
+}
+.border
+{
+    border-right: #015155 1px solid;
+    border-top: #015155 1px solid;
+    border-left: #015155 1px solid;
+    border-bottom: #015155 1px solid;
+}
+
+.MaintainAreaItem
+{
+    background: #99cccc;
+}
+.MaintainAreaTr
+{
+    background: #000000;
+}
+.MaintainAreaTd
+{
+    background: #D5E2E2;
+}
+.MaintainAreaTd1
+{
+    background: #DCE2D3;
+}
+
+A.A1:visited
+{
+    color: purple;
+}
+A.A1:active
+{
+    color: lawngreen;
+}
+A.A1:hover
+{
+    font-weight: bold;
+    color: tomato;
+    background-color: #E3E3E3;
+}
+A.A1.error
+{
+    color: red;
+    text-decoration: none;
+    font-family: Verdana, Arial;
+}
+
+/* 資料分類標題*/
+.dataTit01
+{
+    font-family: 新細明體;
+    letter-spacing: 3pt;
+    text-align: center;
+    font-size: 15pt;
+    color: #ffffff; /*width: 140px; 	height: 24px; 	position:absolute;*/
+    filter: Glow(Color=#167C99, Strength=3);
+    top: 3;
+    left: 0;
+}
+/*==================================================*/
+.cssTitle
+{
+    font-weight: bold;
+    color: #760098;
+    font-family: Verdana, Arial;
+    text-decoration: none;
+}
+.cssFooter
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    text-indent: 8pt;
+    padding-left: 2pt;
+    background-color: #ffffd8;
+    height: 30pt;
+}
+.cssTD
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    text-indent: 8pt;
+    padding-left: 2pt;
+    background-color: #ebfbff;
+}
+.cssTable
+{
+    background-color: #d6ebff;
+    border-color: #00219e;
+    border-collapse: collapse;
+    padding: 2pt;
+    letter-spacing: 0pt;
+}
+.cssButton
+{
+    color: #000000;
+    background: #cccccc;
+    border: 1px solid #000000;
+    padding: 2px 4px 2px 4px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFFFF', EndColorStr='#FFCCCCCC');
+    font-size: 9pt;
+    /*padding: 0 0 0 2pt;*/
+    font-weight: lighter;
+    font-family: verdana;
+    cursor: pointer;
+    
+}
+.cssTextBox
+{
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px groove #0079AA; /*平面solid*/
+    height: 20px;
+}
+.cssAltItemStyle
+{
+    background-color: #FEFFF9;
+}
+.cssItemStyle
+{
+    background-color: #FCFFE8;
+}
+.cssGridCell
+{
+    background-color: #BDE5FF;
+}
+.cssGridSubTotal
+{
+    font-weight: bold;
+    font-size: 10pt;
+    background-color: #BDE5FF;
+}
+.cssLable
+{
+    color: #F2FEFF;
+    font-weight: bold;
+}
+.cssLableTop
+{
+    background-color: #d8deff;
+    height: 25pt;
+}
+
+.mTBTitle
+{
+    background-color: #DEF6BC; /*#0033CC; */
+    border-color: #00219E;
+    color: Blue;
+    text-align: center;
+    font-weight: bold;
+}
+.ItemNoData
+{
+    background-color: #FEFFF9;
+    border-bottom: 1px solid #00219e;
+    border-left: 1px solid #00219e;
+    border-right: 1px solid #00219e;
+    height: 20px;
+}
+
+.cssTableSearch
+{
+    background-color: #bde5ff;
+    border: 1px solid #00219E;
+    border-bottom: 0px;
+}
+.cssDataBody
+{
+    border-width: 1px;
+    border-style: groove;
+}
+.cssDropDown
+{
+    background-color: #F8FBFD;
+    border: 1px solid #D4DCE2;
+    font-size: 1.08em;
+    line-height: 1.5em;
+    padding: 3px;
+}
+.cssTextBox
+{
+    background-color: #F8FBFD;
+    border: 1px solid #D4DCE2;
+    font-size: 1.08em;
+    line-height: 1.5em;
+    padding: 1px;
+}
+.cssHeader
+{
+    text-align: center;
+    background-color: #d8ecff;
+    height: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+.cssTDHeader
+{
+    /*text-align:center;*/
+    height: 50px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F8FCF8', EndColorStr='#D3F7D6');
+    color: Blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Begin Gridview style - Add by Trung Loi 20140423 */
+.mGrid
+{
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: 1px solid #8EB1CC;
+    border-collapse: collapse;
+   
+    font-size:13px;
+   padding: 2px;
+}
+.mGrid td
+{
+    padding: 2px;
+    border: 1px solid #8EB1CC;
+    color: #000000;
+  
+}
+.mGrid th
+{
+	background-color: #B9F2FF;
+    font-weight: bold;
+    font-family: Verdana;
+    padding: 5px;
+    font-size:12px;
+	border: 1px solid #8EB1CC;
+} 
+    
+    
+.mGrid .alt
+{
+	background-color: #EFFFDF;
+}
+.mGrid .pgr
+{
+    background-color: #ffffff;
+}
+
+
+.mGrid .pgr table { margin: 2px 0; }
+.mGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 2px;
+    
+    font-weight: bold;
+    color: #FF3300;
+    line-height: 9px;
+}   
+.mGrid .pgr a { color: #666; text-decoration: none; font-size:12px; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+.mGridHover{ background-color:#d1ddf9;}
+
+
+/* End Gridview style  */
+
+/* Begin PageControl style - Trung Loi - 20140423*/
+.GridHeaderLink
+{
+    color: #000000;
+    font-weight:bold;
+    font-size: 10pt;
+    cursor: pointer;
+    text-decoration :none;
+}
+
+.GridHeaderLinkDisabled
+{
+    color: #808080;
+    font-size: 10pt;
+    cursor: inherit;
+    text-decoration :none;
+}
+
+/* End PageControl style*/

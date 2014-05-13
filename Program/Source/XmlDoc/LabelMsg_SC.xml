@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<PccMsg>
+	<SysManager>
+		<Manager>
+			<lbl0001 Type="T">
+				資材文件系統使用者權限管理SC
+			</lbl0001>
+			<lbl0002 Type="T">
+				財會文件系統使用者權限管理SC
+			</lbl0002>
+		</Manager>
+	</SysManager>
+</PccMsg>

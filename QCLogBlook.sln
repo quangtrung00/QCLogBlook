@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Source", "Program\Source\", "{5E2AD59A-EBBF-4BD7-A41E-4E338E066879}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{D1A7A7D4-38C4-48ED-9378-12044B4104F1}|PccBsACSWeb.dll;{BB68314F-7729-466F-814B-5BD3A2E71C73}|PccDbACSWeb.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Source"
+		Debug.AspNetCompiler.PhysicalPath = "Program\Source\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Source\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Source"
+		Release.AspNetCompiler.PhysicalPath = "Program\Source\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Source\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53797"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PccBsQCLogBlook", "COM\Source\PccBsACSWeb\PccBsQCLogBlook.csproj", "{D1A7A7D4-38C4-48ED-9378-12044B4104F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PccDbQCLogBlook", "COM\Source\PccDbACSWeb\PccDbQCLogBlook.csproj", "{BB68314F-7729-466F-814B-5BD3A2E71C73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E2AD59A-EBBF-4BD7-A41E-4E338E066879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2AD59A-EBBF-4BD7-A41E-4E338E066879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2AD59A-EBBF-4BD7-A41E-4E338E066879}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2AD59A-EBBF-4BD7-A41E-4E338E066879}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D1A7A7D4-38C4-48ED-9378-12044B4104F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A7A7D4-38C4-48ED-9378-12044B4104F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A7A7D4-38C4-48ED-9378-12044B4104F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A7A7D4-38C4-48ED-9378-12044B4104F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB68314F-7729-466F-814B-5BD3A2E71C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB68314F-7729-466F-814B-5BD3A2E71C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB68314F-7729-466F-814B-5BD3A2E71C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB68314F-7729-466F-814B-5BD3A2E71C73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

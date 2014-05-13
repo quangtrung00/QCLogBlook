@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PccMsg>
+  <Applications>
+    <Application>
+      <ApID>249</ApID>
+      <ApAreas>       
+        <Area>
+          <AreaMK>N</AreaMK>
+          <AreaName>
+            Khu QC
+          </AreaName>
+        </Area>
+        <Area>
+          <AreaMK>R</AreaMK>
+          <AreaName>
+            Khu báo biểu
+          </AreaName>
+        </Area>
+        <Area>
+          <AreaMK>C</AreaMK>
+          <AreaName>
+            Khu cấu hình
+          </AreaName>
+        </Area>
+        <Area>
+          <AreaMK>Y</AreaMK>
+          <AreaName>Khu quyền hạn</AreaName>
+        </Area>
+      </ApAreas>
+    </Application>
+    <Application>
+      <ApID>104</ApID>
+      <ApAreas>
+        <Area>
+          <AreaMK>N</AreaMK>
+          <AreaName>管理群組</AreaName>
+        </Area>
+        <Area>
+          <AreaMK>Y</AreaMK>
+          <AreaName>權限區</AreaName>
+        </Area>
+      </ApAreas>
+    </Application>
+  </Applications>
+</PccMsg>

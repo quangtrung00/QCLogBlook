@@ -1,0 +1,259 @@
+<html>
+	<head>
+		<title>Calendar</title>
+		<style> <!-- .DayN { font-family: Arial; font-size: 11px; background-color: rgb(192,192,192); color: rgb(0,0,0); font-weight: bold; text-align: center; vertical-align: middle; border: 2px solid rgb(192,192,192) }
+	.DayU { font-family: Arial; font-size: 11px; background-color: rgb(128,128,128); color: rgb(255,255,255); font-weight: bold; text-align: center; vertical-align: middle; border: 2px outset rgb(255,255,255) }
+	.DayD{ font-family: Arial; font-size: 11px; background-color: rgb(255,255,255); color: rgb(0,0,0); font-weight: bold; text-align: center; vertical-align: middle; border: 2px inset rgb(255,255,255) }
+	.WeekDay{ font-family: Arial; font-size: 11px; background-color: #000000; color: rgb(255,255,255); font-weight: bold; text-align: center; vertical-align: middle; border-left: 1px solid rgb(255,255,255); border-right: 1px solid rgb(255,255,255); border-top: 1px solid rgb(255,255,255) }
+	.WeekEnd{ font-family: Arial; font-size: 11px; background-color: rgb(255,0,0); color: rgb(255,255,255); font-weight: bold; text-align: center; vertical-align: middle; border-left: 1px solid rgb(255,255,255); border-right: 1px solid rgb(255,255,255); border-top: 1px solid rgb(255,255,255) }
+	.ArrowN{ font-family: Arial; font-size: 13px; background-color: rgb(128,128,128); color: rgb(255,255,255); font-weight: bold; text-align: center; vertical-align: middle; border: 2px solid rgb(128,128,128) }
+	.ArrowU{ font-family: Arial; font-size: 13px; background-color: rgb(128,128,128); color: rgb(255,255,255); font-weight: bold; text-align: center; vertical-align: middle; border: 2px outset rgb(255,255,255) }
+	.ArrowD{ font-family: Arial; font-size: 13px; background-color: rgb(192,192,192); color: rgb(255,255,255); font-weight: bold; text-align: center; vertical-align: middle; border: 2px inset rgb(255,255,255) }
+	.DateSelect{ font-family: Arial; font-size: 11px; background-color: rgb(192,192,192); font-weight: bold; text-align: right }
+	--></style>
+	</head>
+	<body bgcolor="#ffffff" topmargin="0" leftmargin="0">
+		<script language="JavaScript"><!--
+var dCurDate = "";
+var objTemp;
+window.onerror = doError;
+document.onmouseover = raiseCel;
+document.onmouseout = sinkCel;
+document.onmousedown = mdCel;
+document.onmouseup = muCel;
+
+ function drawTable()
+  {
+  	var sTable="";
+  	//var intWidth=window.dialogWidth/7;
+  	//var intWidth="14%";
+  	var intWidth="15%";
+  sTable+="<table border='0' cellpadding='0' cellspacing='0'"
+	+"style='font-size: 11px; cursor: pointer; background-color: rgb(192,192,192); border: 1px solid rgb(0,0,0)'"
+	+"id='tblCal' width='200' height='100%' onSelectStart='return false;'>";
+  
+  sTable +="<tr>"
+    	+"<td align='center' bgcolor='#808080' id='celBack' class='ArrowN'>&lt;</td>"
+    	+"<td align='center' style='vertical-align: middle' id='celMonth' colspan='5'>"
+    	+"<div style='clip:rect(2,85,16,5); position:absolute; top:3px;left:50px'>"
+        +"<select name='selYear'  size='1' class='DateSelect' ONCHANGE='selMonthYear();'> </select>"
+        +"<select name='selMonth' size='1' class='DateSelect' ONCHANGE='selMonthYear();'></select>"
+    	+"</td>"
+    	+"<td align='center' bgcolor='#808080' id='celNext' class='ArrowN'>&gt;</td>"
+  	+"</tr>";
+  	var arDays=new Array("日","一","二","三","四","五","六");
+  	/* var arDays=new Array(1,2,3,4,5,6,7); */
+  	sTable+="<tr>";
+  	for (var j=0;j<7;j++)
+ 		sTable +="<td class="+((j==0||j==6)?"WeekEnd":"WeekDay")+" width="+intWidth+">"+arDays[j]+"</td>";
+ 	sTable +="</tr>";
+
+  	for (var i=0;i<6;i++)
+  	{
+  		sTable+="<tr>";
+  		for (var j=0;j<7;j++)
+  		sTable +="<td class='DayN' width="+intWidth+" id=d"+(i*7+j+1)+">1</td>";
+  		sTable +="</tr>";
+  	}
+  	sTable +="<tr>"
+  	+"<td colspan=7 align=center><input type='button' value='Today' name='cmdToday' style='WIDTH:90px;font:9pt' ONCLICK='public_setDate(new Date())'>"
+  	+"<input type='button' value='Close' name='cmdClose' style='WIDTH:90px;font:9pt' ONCLICK='window.close();'></td>"
+  	+"</tr></table>";
+  	//alert(sTable);
+  	document.write(sTable);
+  }
+ 
+function doError() {
+	alert(arguments[0]);
+}
+
+function initWindow() {
+	for (var i=0;i<12;i++)
+	{
+		objNewOpt = document.createElement("OPTION");
+		objNewOpt.text = (i>8?"":"0")+(i+1);
+		objNewOpt.value = i+1;
+		selMonth.options.add(objNewOpt);
+	}
+	var dNow = new Date();
+	setDateSelect();
+	updateCal(dNow);
+	displayMonthYear(dNow);
+	window.returnValue = window.dialogArguments;
+	public_setDate(window.dialogArguments);
+}
+
+
+function public_setDate(sDate) {
+	dCurDate = "";
+	objTemp = "";
+	var dNow = new Date(sDate);
+	dCurDate = dNow;
+	if (dNow == "NaN") {dNow = new Date(); dCurDate = "";}
+	
+	displayMonthYear(dNow);
+	updateCal(dNow);
+}
+
+function setDay(sDay) {
+	sMonth = selMonth.options[selMonth.selectedIndex].value;
+	sYear = selYear.value;
+	if(sMonth<10)sMonth="0"+sMonth;
+	if(sDay<10)sDay="0"+sDay;
+	var sValue=sYear+"/"+sMonth + "/"+sDay;
+	window.returnValue = sValue;
+	window.close();
+}
+
+function displayMonthYear(dDate) {
+	iYear = dDate.getFullYear();
+	selYear.value = iYear;
+	if (selYear.value == "")
+	{
+		objNewOpt = document.createElement("OPTION");
+		objNewOpt.text = iYear;
+		objNewOpt.value = iYear;
+		if (iYear > parseInt(selYear.options[0].value)) iPos = 0;
+			else iPos = selYear.options.length + 1;
+		selYear.options.add(objNewOpt,iPos);
+		selYear.value = iYear;
+	}
+	selMonth.selectedIndex = dDate.getMonth();
+}
+
+function selMonthYear() {
+	dDate = new Date(selYear.value, selMonth.selectedIndex, 1);
+	updateCal(dDate);
+}
+//Cho hi?n th? n?m tren Calendar
+function setDateSelect() {
+	dNow = new Date();
+	//Cho hi?n th? tr??c va sau n?m hi?n t?i la 20 n?m
+	iScrap = dNow.getFullYear()+20;
+	for (i=0; i<40; i++)
+	{
+		objNewOpt = document.createElement("OPTION");
+		objNewOpt.text = (iScrap - i);
+		objNewOpt.value = (iScrap - i);
+		selYear.options.add(objNewOpt);
+	}
+}
+
+function raiseCel() {
+	objItem = window.event.srcElement;
+	if (objItem.className == "DayN")
+		if (objItem.innerText != "") objItem.className = "DayU";
+	if (objItem.className == "ArrowN") objItem.className = "ArrowU";
+}
+
+function sinkCel() {
+	objItem = window.event.srcElement;
+	if (objItem.className == "DayU") objItem.className = "DayN";
+	if (objItem.className == "ArrowU") objItem.className = "ArrowN";
+}
+
+function mdCel() {
+	objTemp = "";
+	sCel = window.event.srcElement;
+	if (sCel.className == "DayU") {sCel.className = "DayD"; objTemp = sCel;}
+	if (sCel.className == "ArrowU") sCel.className = "ArrowD";
+}
+
+function muCel() {
+	sCel = window.event.srcElement;
+	if (sCel.className == "ArrowD")
+	{
+		sCel.className = "ArrowU";
+		if (sCel.id == "celBack")
+		{
+			dDate = dateAdd("m", -1, new Date(selYear.value, selMonth.selectedIndex, 1));
+			displayMonthYear(dDate);
+			updateCal(dDate);
+		}
+		if (sCel.id == "celNext")
+		{
+			dDate = dateAdd("m", 1, new Date(selYear.value, selMonth.selectedIndex, 1));
+			displayMonthYear(dDate);
+			updateCal(dDate);
+		}
+	}
+	if (sCel.className == "DayD") setDay(sCel.innerText);
+	if (objTemp != "") objTemp.className = "DayN";
+}
+
+function updateCal(dDate) {
+	iMonth = dDate.getMonth();
+	iYear = dDate.getFullYear();
+	iDay = dDate.getDate();
+
+	dStart = new Date(iYear, iMonth, 1);
+	dEnd = dateAdd("m", 1, dStart);
+
+	iDays = dateDiff("d", dStart, dEnd);
+	iStartDay = (dStart.getDay() + 1);
+	
+	for (i = 1;  i < 43; i++) {
+		sScrap = "d" + i
+		objItem = document.all[sScrap];
+		if (objItem.className == "DayD") objItem.className = "DayN";
+
+		if ((i < iStartDay) || ((i - iStartDay + 1) > iDays)) objItem.innerText = "";
+				else objItem.innerText = (i - iStartDay + 1);
+   }
+
+	if (dCurDate != "")
+		if ((dCurDate.getMonth() == dDate.getMonth()) && (dCurDate.getFullYear() == dDate.getFullYear()))
+			document.all("d" + (iStartDay - 1 + dCurDate.getDate())).className = "DayD";
+}
+
+function dateAdd(sInterval, iNumber, dDate) {
+	dTemp = new Date(dDate);
+	if (dTemp == "NaN") dTemp = new Date();
+	switch (sInterval) {
+		case "s" :
+			return new Date(Date.parse(dTemp) + (1000 * iNumber));
+		case "n" :
+			return new Date(Date.parse(dTemp) + (60000 * iNumber));
+		case "h" :
+			return new Date(Date.parse(dTemp) + (3600000 * iNumber));
+		case "d" :
+			return new Date(Date.parse(dTemp) + (86400000 * iNumber));
+		case "w" :
+			return new Date(Date.parse(dTemp) + ((86400000 * 7) * iNumber));
+		case "m" :
+			return new Date(dTemp.getFullYear(), (dTemp.getMonth()) + iNumber, dTemp.getDate());
+		case "y" :
+			return new Date((dTemp.getFullYear() + iNumber), dTemp.getMonth(), dTemp.getDate());
+	}
+}
+
+function dateDiff(sInterval, dStart, dEnd) {
+	dStart = new Date(dStart);
+		if (dStart == "NaN") dStart = new Date();
+	dEnd = new Date(dEnd);
+		if (dEnd == "NaN") dEnd = new Date();
+	switch (sInterval) {
+		case "s" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / 1000);
+		case "n" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / 60000);
+		case "h" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / 3600000);
+		case "d" :
+			iScrap = (Date.parse(dEnd) - Date.parse(dStart)) / 86400000
+			iScrap = iScrap + .1
+			return parseInt(iScrap);
+		case "w" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / (86400000 * 7));
+		case "m" :
+			return (dEnd.getMonth() - dStart.getMonth());
+		case "y" :
+			return (dEnd.getFullYear() - dStart.getFullYear());
+	}
+}
+drawTable();
+initWindow();
+// --></script>
+		<FONT face="新細明體"></FONT>
+	</body>
+</html>

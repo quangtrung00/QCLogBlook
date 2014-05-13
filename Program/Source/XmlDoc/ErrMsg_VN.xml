@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PccMsg>
+  <msg0001 Type="I">Day la thong tin thong bao !</msg0001> 
+  <msg0002 Type="E">Day la thong tin bao loi !</msg0002> 
+  <msg0003 Type="W">Day la thong tin canh cao !</msg0003> 
+  <msg0004 Type="I">Them moi thanh cong !</msg0004> 
+  <msg0006 Type="E">Xoa that bai !</msg0006> 
+  <msg0007 Type="E">Cap nhat that bai !</msg0007> 
+  <msg0009 Type="I">Them moi thanh cong !</msg0009> 
+  <SystemManager>
+  <msg0005 Type="I">Xin hoi: ban co muon xoa du lieu cua menu{0}nay khong ?</msg0005> 
+  <msg0008 Type="I">Xin hoi: ban co muon xoa quyen han ung dung chuong trinh cua user{0}nay khong ?</msg0008> 
+  <msg0010 Type="I">Xin hoi: ban co muon xoa user {0} nay khong ?</msg0010> 
+  <msg0011 Type="I">Xin hoi: ban co muon xoa toan bo du lieu tuong quan cua trinh ung dung{0}nay khong ?</msg0011> 
+  </SystemManager>
+  <AdtPur>
+  <msg0012 Type="I">Xin hoi: ban co muon xoa toan bo du lieu lien quan cua loai chinh {0} nay khong ?</msg0012> 
+  <msg0013 Type="I">Xin hoi: ban co muon xoa toan bo du lieu lien quan cua loai thu{0}nay khong ?</msg0013> 
+  <msg0014 Type="I">Nhap tieu de tai lieu</msg0014> 
+  <msg0015 Type="I">Xin chon ten loai chinh</msg0015> 
+  <msg0016 Type="I">Xin chon ten loai thu</msg0016> 
+  <msg0017 Type="I">Xin nhap ngay thang cua van ban</msg0017> 
+  <msg0018 Type="I">Co so du lieu khong co loai du lieu tuong quan nay</msg0018> 
+  <msg0019 Type="I">Co so du lieu khong co lien quan den dlieu cac file trong kho duoc biet</msg0019> 
+  <msg0020 Type="I">Co so du lieu khong co bat ky du lieu cua user nay</msg0020> 
+  <msg0021 Type="I">Du lieu xu ly co loi</msg0021> 
+  <msg0022 Type="I">Email thong bao da gui di thanh cong !</msg0022> 
+  <msg0023 Type="I">Email thong bao da gui di that bai !</msg0023> 
+  <msg0024 Type="I">Xac dinh la xoa tai lieu nay</msg0024> 
+  <msg0025 Type="I">Xoa thanh cong !</msg0025> 
+  <msg0026 Type="I">Khong ai co quyen xem qua tai lieu nay</msg0026> 
+  <msg0027 Type="I">Xin nhap ky tu tieng anh</msg0027> 
+  <msg0028 Type="I">Xin chon ten loai chinh</msg0028> 
+  <msg0029 Type="W">De can nhac an toan, account cua GUEST khong the truc tiep xem qua tai lieu nay !</msg0029> 
+  <msg0031 Type="I">Xin nhap chinh xac ngay thang</msg0031> 
+  <msg0032 Type="I">Xin nhap chinh xac thang(1~12)</msg0032> 
+  <msg0033 Type="I">Xin nhap chinh xac do dai cua ngay</msg0033> 
+  <msg0034 Type="I">Xin nhap ngay</msg0034> 
+  <msg0035 Type="I">Xin nhap thang</msg0035> 
+  <msg0036 Type="I">Xin nhap nam</msg0036> 
+  <msg0037 Type="I">Xin nhap chinh xac quy cach ngay thang, Ex:2003/09/10</msg0037> 
+  <msg0038 Type="I">Xin nhap chinh xac ky tu ngay thang, Ex:2003/09/10</msg0038> 
+  <msg0042 Type="I">Xin chon tat ca cac don thuoc AP</msg0042> 
+  <msg0043 Type="I">Xin hoi: ban co muon xoa tat ca du lieu tuong quan cua don ( {0} ) nay khong ?</msg0043> 
+  <msg0045 Type="I">Thuc thi thanh cong !</msg0045> 
+  <msg0046 Type="I">Co so du lieu khong co lien quan den muc thao luan</msg0046> 
+  <msg0047 Type="I">Xac dinh co muon xoa phan tai lieu nay</msg0047> 
+  <msg0048 Type="I">Xac dinh co muon xoa tieu de phan thao luan nay</msg0048> 
+  <msg0049 Type="I">Xac dinh co muon xoa muc thao luan nay</msg0049> 
+  <msg0050 Type="I">Xac dinh co muon an tieu de thao luan</msg0050> 
+  <msg0051 Type="I">An thanh cong !</msg0051> 
+  <msg0052 Type="I">An that bai !</msg0052> 
+  <msg0053 Type="I">Khong co quyen han lien quan</msg0053> 
+  <msg0055 Type="I">Xac dinh co muon hien thi tieu de thao luan</msg0055> 
+  <msg0056 Type="I">Hien thi thanh cong !</msg0056> 
+  <msg0057 Type="I">Hien thi that bai !</msg0057> 
+  <msg0058 Type="I">Xin loi, ban quen chua nhap de muc thao luan !</msg0058> 
+  <msg0059 Type="I">Xin loi, ban quen chua nhap noi dung thao luan !</msg0059> 
+  <msg0060 Type="I">Phan phat thanh cong !</msg0060> 
+  <msg0061 Type="I">Tra loi thanh cong !</msg0061> 
+  <msg0062 Type="I">Xin chon file ma ban muon thuc thi</msg0062> 
+  <msg0063 Type="I">Xin chon file ma ban muon xoa</msg0063> 
+  </AdtPur>
+  <msg0044 Type="I">Xin hoi: ban co muon xoa toan bo du lieu lien quan den trinh ung dung ( {0} ) nay khong ?</msg0044>
+  <msg0064 Type="I">Xin hoi: ban co muon xoa toan bo du lieu lien quan den don ( {0} ) nay khong ?</msg0064> 
+  <msg0040 Type="I">Xin hoi: ban co muon xoa toan bo quyen han lien quan den chuong trinh ung dung cua user ( {0} ) nay khong ?</msg0040> 
+  <msg0041 Type="I">Xin hoi: user nay ( {0} ) co thuoc quan ly cua to hay ko ?</msg0041> 
+  <msg0039 Type="I">Xin hoi: ban co muon xoa toan bo du lieu lien quan den nhom ( {0} ) nay khong ?</msg0039> 
+  <msg0030 Type="W">User nay vo hieu !</msg0030> 
+  <msg0054 Type="I">Xin loi, ban khong co quyen su dung he thong nay !</msg0054> 
+  <msg0065 Type="I">Tim khong co du lieu</msg0065> 
+</PccMsg> 

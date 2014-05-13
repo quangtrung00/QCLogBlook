@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PccMsg>
+    <MenuItem>
+        <M000001>歡迎</M000001>
+        <M000002>光臨</M000002>
+        <M000011>個人資料修改</M000011>
+        <M000012>加入系統</M000012>
+        <M000013>語言轉換</M000013>
+        <M153001>待審申請單</M153001>
+        <M153021>群組管理</M153021>
+        <M153022>使用者管理</M153022>
+        <M153023>審核使用者</M153023>
+        <M153024>廠別管理</M153024>
+        <M153025>廠群組管理</M153025>
+    </MenuItem>
+    <FlowManage>
+        <FlowMaintain>
+            <FlowMaintain142>
+                <lbl0001>編號</lbl0001>
+                <lbl0002>角色名稱</lbl0002>
+                <lbl0003>報表名稱</lbl0003>
+            </FlowMaintain142>
+            <Step2>
+                <lbl0001>節點代號</lbl0001>
+                <lbl0002>報表名稱</lbl0002>
+                <lbl0003>節點人員</lbl0003>
+                <lbl0004>角色名稱</lbl0004>
+                <lbl0005>代理人</lbl0005>
+            </Step2>
+        </FlowMaintain>
+    </FlowManage>
+    <SysManager>
+        <Manager>
+            <lbl0001 Type="T">資材文件系統使用者權限管理</lbl0001>
+            <lbl0002 Type="T">財會文件系統使用者權限管理</lbl0002>
+            <lbl0003 Type="B">使用者管理</lbl0003>
+            <lbl0004 Type="B">選單管理</lbl0004>
+            <lbl0005 Type="B">使用者權限管理</lbl0005>
+            <lbl0006 Type="B">新增選單</lbl0006>
+            <lbl0007 Type="T">新增資材文件系統選單</lbl0007>
+            <lbl0008 Type="T">新增財會文件系統選單</lbl0008>
+            <lbl0009 Type="L">選單編碼：</lbl0009>
+            <lbl0010 Type="L">選單名稱：</lbl0010>
+            <lbl0011 Type="L">選單連結：</lbl0011>
+            <lbl0012 Type="T">測試系統系統使用者權限管理</lbl0012>
+            <lbl0013 Type="T">系統管理系統使用者權限管理</lbl0013>
+            <lbl0014 Type="T">新增測試系統系統選單</lbl0014>
+            <lbl0015 Type="T">新增系統管理系統選單</lbl0015>
+            <lbl0016 Type="T">新增</lbl0016>
+            <lbl0017 Type="T">系統選單</lbl0017>
+            <lbl0018 Type="T">使用者權限管理</lbl0018>
+            <lbl0019 Type="H">編號</lbl0019>
+            <lbl0020 Type="H">選單編碼</lbl0020>
+            <lbl0021 Type="H">選單名稱</lbl0021>
+            <lbl0022 Type="H">選單連結</lbl0022>
+        </Manager>
+        <UserAuthManager>
+            <lbl0001 Type="B">加入使用者</lbl0001>
+        </UserAuthManager>
+        <UserManager>
+            <lbl0001 Type="B">新增使用者</lbl0001>
+            <lbl0002 Type="B">加入使用者</lbl0002>
+            <lbl0003 Type="L">姓名：</lbl0003>
+            <lbl0004 Type="L">電子郵件帳號：</lbl0004>
+            <lbl0005 Type="L">登入密碼：</lbl0005>
+            <lbl0006 Type="L">確認密碼：</lbl0006>
+            <lbl0007 Type="L">部門：</lbl0007>
+            <lbl0008 Type="L">工號：</lbl0008>
+            <lbl0009 Type="L">分機號碼：</lbl0009>
+            <lbl0010 Type="L">電子郵件：</lbl0010>
+            <lbl0011 Type="L">管理權限：</lbl0011>
+            <lbl0012 Type="L">部門：</lbl0012>
+            <lbl0013 Type="L">姓名：</lbl0013>
+            <lbl0014 Type="I">您還未選擇任何使用者！</lbl0014>
+            <lbl0015 Type="I">注意：新增使用者之密碼為【password】！</lbl0015>
+            <lbl0016 Type="B">刪除使用者</lbl0016>
+            <lbl0017 Type="B">更新使用者資料</lbl0017>
+            <lbl0018 Type="H">編號</lbl0018>
+            <lbl0019 Type="H">姓名</lbl0019>
+            <lbl0020 Type="H">登入帳號</lbl0020>
+            <lbl0021 Type="H">登入密碼</lbl0021>
+            <lbl0022 Type="H">部門</lbl0022>
+            <lbl0023 Type="H">工號</lbl0023>
+            <lbl0024 Type="H">分機號碼</lbl0024>
+            <lbl0025 Type="H">電子郵件</lbl0025>
+            <lbl0026 Type="H">選取</lbl0026>
+            <lbl0027 Type="L">使用者資料管理</lbl0027>
+            <lbl0028 Type="L">管理者：</lbl0028>
+            <lbl0029 Type="L">使用者身份</lbl0029>
+            <lbl0030 Type="L">使用者姓名</lbl0030>
+            <lbl0031 Type="H">註記</lbl0031>
+            <lbl0032 Type="H">帳號</lbl0032>
+            <lbl0033 Type="H">電子郵件帳號</lbl0033>
+            <lbl0034 Type="H">分機</lbl0034>
+            <lbl0035 Type="H">檢視</lbl0035>
+            <lbl0036 Type="H">管理</lbl0036>
+            <lbl0037 Type="H">群組</lbl0037>
+            <lbl0038 Type="H">使用者管理</lbl0038>
+            <lbl0039 Type="H">載入資料錯誤</lbl0039>
+        </UserManager>
+        <ApManager>
+            <lbl0001 Type="B">應用程式管理</lbl0001>
+            <lbl0002 Type="B">新增應用程式</lbl0002>
+            <lbl0003 Type="L">應用程式編碼：</lbl0003>
+            <lbl0004 Type="L">應用程式名稱：</lbl0004>
+            <lbl0005 Type="L">應用程式連結：</lbl0005>
+            <lbl0006 Type="L">新增應用程式選單</lbl0006>
+            <lbl0007 Type="H">編號</lbl0007>
+            <lbl0008 Type="H">應用程式編碼</lbl0008>
+            <lbl0009 Type="H">應用程式名稱</lbl0009>
+            <lbl0010 Type="H">應用程式連結</lbl0010>
+            <lbl0011 Type="L">應用程式目錄：</lbl0011>
+            <lbl0012 Type="H">應用程式目錄</lbl0012>
+            <lbl0013 Type="H">管理</lbl0013>
+            <lbl0014 Type="H">編輯此應用程式</lbl0014>
+            <lbl0015 Type="H">刪除此應用程式</lbl0015>
+            <lbl0016 Type="L">修改應用程式選單</lbl0016>
+            <lbl0017 Type="H">檢視</lbl0017>
+            <lbl0018 Type="A">檢視應用程式選單</lbl0018>
+        </ApManager>
+        <MenuManage>
+            <lbl0001 Type="T">選單管理</lbl0001>
+            <lbl0002 Type="L">應用程式名稱：</lbl0002>
+            <lbl0003 Type="L">選單名稱：</lbl0003>
+            <lbl0004 Type="B">新增選單</lbl0004>
+            <lbl0005 Type="H">編號</lbl0005>
+            <lbl0006 Type="H">選單歸屬AP</lbl0006>
+            <lbl0007 Type="H">選單編號</lbl0007>
+            <lbl0008 Type="H">選單名稱</lbl0008>
+            <lbl0009 Type="H">選單連結</lbl0009>
+            <lbl0010 Type="H">管理</lbl0010>
+            <lbl0011 Type="H">管理區</lbl0011>
+            <lbl0012 Type="H">編輯此選單</lbl0012>
+            <lbl0013 Type="H">刪除此選單</lbl0013>
+            <lbl0014 Type="L">選單編號：</lbl0014>
+            <lbl0015 Type="L">選單連結：</lbl0015>
+            <lbl0016 Type="L">選單歸屬AP：</lbl0016>
+            <lbl0017 Type="L">檢查標註：</lbl0017>
+            <lbl0018 Type="L">管理區標註：</lbl0018>
+            <lbl0019 Type="T">更新選單</lbl0019>
+        </MenuManage>
+    </SysManager>
+    <ADTPurDoc>
+        <ClassManage>
+            <lbl0001 Type="T">類別管理</lbl0001>
+            <lbl0002 Type="L">新增主類別</lbl0002>
+            <lbl0003 Type="L">新增次類別</lbl0003>
+            <lbl0004 Type="L">主類別編號</lbl0004>
+            <lbl0005 Type="L">次類別編號</lbl0005>
+            <lbl0006 Type="L">主類別名稱</lbl0006>
+            <lbl0007 Type="L">次類別名稱</lbl0007>
+            <lbl0008 Type="R">主類別</lbl0008>
+            <lbl0009 Type="R">次類別</lbl0009>
+            <lbl0010 Type="L">主類別名稱</lbl0010>
+            <lbl0011 Type="L">主/次類別管理</lbl0011>
+            <lbl0012 Type="B">新增類別</lbl0012>
+            <lbl0013 Type="L">編號</lbl0013>
+            <lbl0014 Type="D">檢視次類別</lbl0014>
+        </ClassManage>
+        <View>
+            <lbl0001 Type="T">知識庫文件一覽表</lbl0001>
+            <lbl0002 Type="L">查詢方式</lbl0002>
+            <lbl0003 Type="L">主類別名稱</lbl0003>
+            <lbl0004 Type="L">次類別名稱</lbl0004>
+            <lbl0005 Type="L">文件編號</lbl0005>
+            <lbl0006 Type="L">文件日期</lbl0006>
+            <lbl0007 Type="L">標題</lbl0007>
+            <lbl0008 Type="D">編號</lbl0008>
+            <lbl0009 Type="D">檔案名稱</lbl0009>
+            <lbl0010 Type="D">文件明細</lbl0010>
+            <lbl0011 Type="D">備註</lbl0011>
+            <lbl0012 Type="T"></lbl0012>
+            <lbl0013 Type="T"></lbl0013>
+        </View>
+        <DocManage>
+            <lbl0001 Type="T">知識庫文件管理</lbl0001>
+            <lbl0002 Type="L">查詢方式</lbl0002>
+            <lbl0003 Type="L">主類別名稱</lbl0003>
+            <lbl0004 Type="L">次類別名稱</lbl0004>
+            <lbl0005 Type="L">文件編號</lbl0005>
+            <lbl0006 Type="L">文件日期</lbl0006>
+            <lbl0007 Type="L">標題</lbl0007>
+            <lbl0008 Type="D">編號</lbl0008>
+            <lbl0009 Type="D">文件檔案</lbl0009>
+            <lbl0010 Type="D">E-Mail通知</lbl0010>
+            <lbl0011 Type="D">文件管理</lbl0011>
+            <lbl0012 Type="T">寄送電子郵件通知</lbl0012>
+            <lbl0013 Type="T">更新此文件</lbl0013>
+            <lbl0014 Type="T">刪除此文件</lbl0014>
+            <lbl0015 Type="L">寄送電子郵件確認</lbl0015>
+            <lbl0016 Type="L">系統將寄送(</lbl0016>
+            <lbl0017 Type="L">)予下方列表人員，請確認：</lbl0017>
+            <lbl0018 Type="T">回上層選單</lbl0018>
+            <lbl0019 Type="T">使用者姓名</lbl0019>
+            <lbl0020 Type="T">電子郵件信箱</lbl0020>
+            <lbl0021 Type="L">寄發</lbl0021>
+            <lbl0022 Type="B">寄發通知</lbl0022>
+        </DocManage>
+        <DocSecManage>
+            <lbl0001 Type="T">新增知識庫文件</lbl0001>
+            <lbl0002 Type="L">文件標題</lbl0002>
+            <lbl0003 Type="L">主類別名稱</lbl0003>
+            <lbl0004 Type="L">次類別名稱</lbl0004>
+            <lbl0005 Type="L">文件日期</lbl0005>
+            <lbl0006 Type="L">文件備註</lbl0006>
+            <lbl0007 Type="L">相關檔案</lbl0007>
+            <lbl0008 Type="D">編號</lbl0008>
+            <lbl0009 Type="D">文件編號</lbl0009>
+            <lbl0010 Type="D">標題</lbl0010>
+            <lbl0011 Type="D">次類別名稱</lbl0011>
+            <lbl0012 Type="D">文件日期</lbl0012>
+            <lbl0013 Type="D">權限管理</lbl0013>
+            <lbl0014 Type="T">修改使用者權限</lbl0014>
+            <lbl0015 Type="T">使用者權限管理</lbl0015>
+            <lbl0016 Type="L">查詢方式</lbl0016>
+            <lbl0017 Type="B">新增知識庫文件</lbl0017>
+            <lbl0018 Type="B">使用者權限更新</lbl0018>
+            <lbl0019 Type="L">使用者身份</lbl0019>
+            <lbl0020 Type="L">使用者姓名</lbl0020>
+            <lbl0021 Type="L">知識庫文件使用者權限</lbl0021>
+            <lbl0022 Type="D">使用者姓名</lbl0022>
+            <lbl0023 Type="D">所屬部門</lbl0023>
+            <lbl0024 Type="D">E-Mail</lbl0024>
+            <lbl0025 Type="D">瀏覽權限</lbl0025>
+            <lbl0026 Type="D">發信權限</lbl0026>
+            <lbl0027 Type="D">更新權限</lbl0027>
+            <lbl0028 Type="D">刪除權限</lbl0028>
+            <lbl0029 Type="H">回上層選單</lbl0029>
+            <lbl0030 Type="T">寄送電子郵件通知</lbl0030>
+        </DocSecManage>
+        <GroupManage>
+            <lbl0001 Type="H">群組管理</lbl0001>
+            <lbl0002 Type="L">群組名稱：</lbl0002>
+            <lbl0003 Type="H">新增群組</lbl0003>
+            <lbl0004 Type="H">編號</lbl0004>
+            <lbl0030 Type="H">電子郵件帳號</lbl0030>
+            <lbl0005 Type="H">使用者名稱</lbl0005>
+            <lbl0006 Type="H">廠別</lbl0006>
+            <lbl0007 Type="H">部門別</lbl0007>
+            <lbl0031 Type="H">電子郵件</lbl0031>
+            <lbl0008 Type="H">選取</lbl0008>
+            <lbl0009 Type="H">群組類別：</lbl0009>
+            <lbl0010 Type="M">群組名稱不能為空白！</lbl0010>
+            <lbl0011 Type="H">刪除</lbl0011>
+            <lbl0012 Type="H">選單名稱</lbl0012>
+            <lbl0013 Type="H">顯示權限</lbl0013>
+            <lbl0014 Type="H">新增權限</lbl0014>
+            <lbl0015 Type="H">更新權限</lbl0015>
+            <lbl0016 Type="H">刪除權限</lbl0016>
+            <lbl0017 Type="H">報表權限</lbl0017>
+            <lbl0018 Type="H">發信權限</lbl0018>
+            <lbl0019 Type="H">更新送出</lbl0019>
+            <lbl0020 Type="L">檢視使用者</lbl0020>
+            <lbl0021 Type="L">檢視選單</lbl0021>
+            <lbl0022 Type="H">群組名稱(點選群組名稱可把使用者加入此群組)</lbl0022>
+            <lbl0023 Type="L">請選擇---</lbl0023>
+            <lbl0024 Type="L">---所要加入之群組!</lbl0024>
+            <lbl0025 Type="H">群組名稱</lbl0025>
+            <lbl0026 Type="H">檢視選單權限</lbl0026>
+            <lbl0027 Type="A">回歸群組</lbl0027>
+            <lbl0028 Type="A">修改此使用者資料</lbl0028>
+            <lbl0029 Type="A">取消此使用者對此系統的權限</lbl0029>
+        </GroupManage>
+        <Discuss>
+            <lbl0001 Type="T">發表新主題</lbl0001>
+            <lbl0002 Type="T">發表回覆</lbl0002>
+            <lbl0003 Type="T">修改文章</lbl0003>
+            <lbl0004 Type="L">作者:</lbl0004>
+            <lbl0005 Type="L">主題:</lbl0005>
+            <lbl0006 Type="L">內容:</lbl0006>
+            <lbl0007 Type="L">加入附加檔案：</lbl0007>
+            <lbl0008 Type="L">刪除附加檔案：</lbl0008>
+            <lbl0009 Type="T">資材部門討論區</lbl0009>
+            <lbl0010 Type="A">發表主題</lbl0010>
+            <lbl0011 Type="A">依時間排序</lbl0011>
+            <lbl0012 Type="L">關鍵字：</lbl0012>
+            <lbl0013 Type="L">最後發表時間：</lbl0013>
+            <lbl0014 Type="D">主題</lbl0014>
+            <lbl0015 Type="D">內文</lbl0015>
+            <lbl0016 Type="D">作者</lbl0016>
+            <lbl0017 Type="L">發表人</lbl0017>
+            <lbl0018 Type="T">回應</lbl0018>
+            <lbl0019 Type="T">最後發表時間</lbl0019>
+            <lbl0020 Type="T">隱藏主題</lbl0020>
+            <lbl0021 Type="L">文章管理</lbl0021>
+            <lbl0022 Type="B">指定回答者：</lbl0022>
+            <lbl0023 Type="A">回上層選單</lbl0023>
+            <lbl0024 Type="L">編號</lbl0024>
+            <lbl0025 Type="A">檢視回覆</lbl0025>
+            <lbl0026 Type="A">修改此文章</lbl0026>
+            <lbl0027 Type="A">刪除此文章</lbl0027>
+            <lbl0028 Type="L">時間：</lbl0028>
+            <lbl0029 Type="A">回覆文章</lbl0029>
+            <lbl0030 Type="A">發表主題</lbl0030>
+            <lbl0031 Type="T">隱藏此主題</lbl0031>
+            <lbl0032 Type="T">顯示此主題</lbl0032>
+        </Discuss>
+    </ADTPurDoc>
+    <OrdSignWeb>
+        <OrdSign>
+            <lbl0001 Type="T">編號</lbl0001>
+            <lbl0002 Type="T">申請單號</lbl0002>
+            <lbl0003 Type="T">申請單名稱</lbl0003>
+            <lbl0004 Type="L">訂購單號</lbl0004>
+            <lbl0005 Type="L">公司別</lbl0005>
+            <lbl0006 Type="L">廠別</lbl0006>
+            <lbl0007 Type="L">申請者</lbl0007>
+            <lbl0008 Type="L">檢視</lbl0008>
+            <lbl0009 Type="T">選取</lbl0009>
+            <lbl0010 Type="A">審核</lbl0010>
+            <lbl0011 Type="A">送審日期</lbl0011>
+            <lbl0012 Type="L">簽核歷程</lbl0012>
+            <lbl0013 Type="L">核准</lbl0013>
+            <lbl0014 Type="D">駁回</lbl0014>
+            <lbl0015 Type="D">退審</lbl0015>
+            <lbl0016 Type="D">通知修改</lbl0016>
+            <lbl0017 Type="L">簽核角色</lbl0017>
+            <lbl0018 Type="T">簽核人員</lbl0018>
+            <lbl0019 Type="T">簽核日期</lbl0019>
+            <lbl0020 Type="T">備註</lbl0020>
+            <lbl0021 Type="L">簽核狀態</lbl0021>
+            <lbl0022 Type="B">公司別：</lbl0022>
+            <lbl0023 Type="A">廠別：</lbl0023>
+            <lbl0024 Type="L">送審日期：</lbl0024>
+            <lbl0025 Type="A">訂購單號：</lbl0025>
+            <lbl0026 Type="A">申請單種類：</lbl0026>
+            <lbl0027 Type="A">批次審核</lbl0027>
+            <lbl0028 Type="L">待審申請單</lbl0028>
+            <lbl0029 Type="A">簽核</lbl0029>
+            <lbl0030 Type="A">退回</lbl0030>
+            <lbl0031 Type="T">簽核說明</lbl0031>
+            <lbl0032 Type="T">駁回說明</lbl0032>
+            <lbl0033 Type="T">退審說明</lbl0033>
+            <lbl0034 Type="T">通知修改說明</lbl0034>
+            <lbl0035 Type="T">撤單</lbl0035>
+            <lbl0036 Type="T">撤回申請單</lbl0036>
+            <lbl0037 Type="T">撤單說明</lbl0037>
+            <lbl0038 Type="T">送審狀態：</lbl0038>
+            <lbl0039 Type="T">繼續挑選</lbl0039>
+            <lbl0040 Type="T">挑選受文者</lbl0040>
+            <lbl0041 Type="T">受文者名稱</lbl0041>
+            <lbl0042 Type="T">受文者Mail</lbl0042>
+            <lbl0043 Type="T">受文者群組管理</lbl0043>
+            <lbl0044 Type="T">管理</lbl0044>
+            <lbl0045 Type="T">刪除</lbl0045>
+            <lbl0046 Type="T">受文者群組管理</lbl0046>
+            <lbl0047 Type="T">修改</lbl0047>
+            <lbl0048 Type="T">受文者名稱：</lbl0048>
+            <lbl0049 Type="T">受文者Mail：</lbl0049>
+            <lbl0050 Type="T">加入受文群組</lbl0050>
+            <lbl0051 Type="T">回受文者群組管理</lbl0051>
+            <lbl0052 Type="T">全選</lbl0052>
+            <lbl0053 Type="T">受文者：</lbl0053>
+            <lbl0054 Type="T">新增</lbl0054>
+            <lbl0055 Type="T">修改</lbl0055>
+            <lbl0056 Type="T">受文群組名稱：</lbl0056>
+            <lbl0057 Type="T">代理人設定</lbl0057>
+            <!--here-->
+            <lbl0058 Type="T">新增</lbl0058>
+            <lbl0059 Type="T">新增</lbl0059>
+            <lbl0060 Type="T">修改</lbl0060>
+            <lbl0061 Type="T">新增</lbl0061>
+            <lbl0062 Type="T">修改</lbl0062>
+            <lbl0063 Type="T">新增</lbl0063>
+            <lbl0064 Type="T">修改</lbl0064>
+            <lbl0065 Type="T">修改</lbl0065>
+        </OrdSign>
+    </OrdSignWeb>
+
+    <QC>
+        <Message>
+            <lbl0001 Type="T">查無資料</lbl0001>// Tìm không thấy dữ liệu
+            <lbl0002 Type="T">請選擇</lbl0002>//Chọn
+        </Message>
+        <Tilte>
+            <lbl0001 Type="T">組別代號</lbl0001>
+            <lbl0002 Type="T">組別名稱</lbl0002>
+            <lbl0003 Type="T">類別</lbl0003>
+            <lbl0004 Type="T">部門</lbl0004>
+            <lbl0005 Type="T">定</lbl0005>
+            <lbl0006 Type="T">巡</lbl0006>
+            <lbl0007 Type="T">棟別</lbl0007>
+            <lbl0008 Type="T">樓層</lbl0008>
+            <lbl0009 Type="T">線別註記</lbl0009>
+            <lbl0010 Type="T">不良圖示</lbl0010>//Hình ảnh không đạt
+            <lbl0011 Type="T">條件設定</lbl0011>//Thiết lập điều kiện
+            <lbl0012 Type="T">設定人</lbl0012>//Người thiết lập
+            <lbl0013 Type="T">設定時間</lbl0013>//Thời gian thiết lập
+            <lbl0014 Type="T">條件</lbl0014>//Điều kiện
+            <lbl0015 Type="T">不良次數</lbl0015>//Số lần không đạt
+            <lbl0016 Type="T">Đường dẩn</lbl0016>//Đường dẩn
+            <lbl0017 Type="T">Return QC</lbl0017>
+            <lbl0018 Type="T">廠別</lbl0018>
+            <lbl0019 Type="T">日期</lbl0019>
+            <lbl0020 Type="T">定點QC</lbl0020>
+            <lbl0021 Type="T">巡檢員</lbl0021>
+            <lbl0022 Type="T">合格數</lbl0022>
+            <lbl0023 Type="T">不良數</lbl0023>
+            <lbl0024 Type="T">抽驗總數</lbl0024>
+            <lbl0025 Type="T">合格率</lbl0025>
+            <lbl0026 Type="T">更新成功 !</lbl0026>//cập nhật thành công
+            <lbl0027 Type="T">請選單號 !</lbl0027>//Hãy chọn mã đơn
+            <lbl0028 Type="T">請選原因出錯 !</lbl0028>//Hãy chọn nguyên nhân lỗi
+            <lbl0029 Type="T">數量不合理 !</lbl0029>//Số lượng không hợp lệ
+            <lbl0030 Type="T">選固定qc user !</lbl0030>//chọn user qc cố định
+            <lbl0031 Type="T">找時間不合理 !</lbl0031>//Mốc thời gian không hợp lệ
+            <lbl0032 Type="T">總數抽檢不符合!</lbl0032>//Tổng số rút kiểm không hợp lệ
+            <lbl0033 Type="T">功能</lbl0033>//Chức năng
+            <lbl0034 Type="T">工號</lbl0034>//Số thẻ
+            <lbl0035 Type="T">Giao diện tìm kiếm</lbl0035>
+            <lbl0036 Type="T">QC Log Book Review</lbl0036>//
+        </Tilte>
+    </QC>
+
+    <btnReset Type="B">重設</btnReset>
+    <btnAllSelected Type="B">全選</btnAllSelected>
+    <btnOK Type="B">確定</btnOK>
+    <btnCancel Type="B">取消</btnCancel>
+    <btnAddNew Type="B">新增</btnAddNew>
+    <btnAddNewAndComeOn Type="B">新增並加入</btnAddNewAndComeOn>
+    <SelectPlease Type="B">---請選擇---</SelectPlease>
+    <btnQuery Type="B">查詢</btnQuery>
+    <btnClear Type="B">清除</btnClear>
+    <btnUpdate Type="B">更新</btnUpdate>
+    <btnEdit Type="B">編輯</btnEdit>
+    <btnDelete Type="B">刪除</btnDelete>
+    <msgLoadDataError Type="W">載入資料錯誤！</msgLoadDataError>
+    <msgAskTransfer>您想要轉換到中文嗎?</msgAskTransfer>
+    <msgWelcome>歡迎</msgWelcome>
+    <msgWelcome2>光臨</msgWelcome2>
+    <msgMenu>選單</msgMenu>
+    <LinkFirst Type="L">第一頁</LinkFirst>
+    <LinkPrev Type="L">上一頁</LinkPrev>
+    <LinkNext Type="L">下一頁</LinkNext>
+    <LinkLast Type="L">最末頁</LinkLast>
+    <ViewGeneror>檢視一般區</ViewGeneror>
+    <ViewManage>檢視管理區</ViewManage>
+    <ViewNormal>檢視此區域</ViewNormal>
+</PccMsg>

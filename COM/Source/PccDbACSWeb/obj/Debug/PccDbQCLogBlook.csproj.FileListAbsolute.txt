@@ -1,0 +1,4 @@
+D:\PcaWeb\QCLogBlook\COM\Source\PccDbACSWeb\bin\Debug\PccDbQCLogBlook.dll
+D:\PcaWeb\QCLogBlook\COM\Source\PccDbACSWeb\bin\Debug\PccDbQCLogBlook.pdb
+D:\PcaWeb\QCLogBlook\COM\Source\PccDbACSWeb\obj\Debug\PccDbQCLogBlook.dll
+D:\PcaWeb\QCLogBlook\COM\Source\PccDbACSWeb\obj\Debug\PccDbQCLogBlook.pdb

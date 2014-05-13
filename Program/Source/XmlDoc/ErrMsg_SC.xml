@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<PccMsg>
+	<msg0001 Type="I">这是一个汛息通知</msg0001>
+	<msg0002 Type="E">这是一个错误通知</msg0002>
+	<msg0003 Type="W">这是一个警告通知</msg0003>
+</PccMsg> 

@@ -1,0 +1,8 @@
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\bin\Debug\PccCommonForC.dll
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\bin\Debug\PccBsQCLogBlook.dll
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\bin\Debug\PccBsQCLogBlook.pdb
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\bin\Debug\PccDbQCLogBlook.dll
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\bin\Debug\PccDbQCLogBlook.pdb
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\obj\Debug\PccBsQCLogBlook.dll
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\obj\Debug\PccBsQCLogBlook.pdb
+D:\PcaWeb\QCLogBlook\COM\Source\PccBsACSWeb\obj\Debug\PccBsQCLogBlook.csprojResolveAssemblyReference.cache

@@ -1,0 +1,149 @@
+﻿
+
+.cssQCTitle
+{
+    background-color: #7A9CEB;
+    color: White;
+}
+.cssQCVou_No
+{
+    background-color: #F3FFE1;  
+}
+.cssTitleReson
+{
+    background-color: #E3F4FF;
+}
+#Master
+{
+    width: 100%;
+    position:relative;
+    float: left;   
+}
+#TopMaster
+{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #84E1FD;
+}
+#MiddleMaster
+{
+    color: #515150;
+    width: 100%;
+    float: left;
+    height: 80px;
+    background-color: #EAFFCB;
+    font-size:20px !important;
+    font-weight:bold;
+}
+
+
+#ContentMaster
+{
+    width: 100%;
+    float: left;
+}
+.cssAMenu
+{
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.cssAMenu:hover
+{
+    height: 20px;
+    color: red;
+    cursor: pointer;
+    margin-left: 20px;
+    color: red;
+}
+
+.cssAAA
+{
+    height: 30px;
+    color: #222;
+}
+.cssAAA:hover
+{
+    height: 30px;
+    background-image: url('../../Images/Icon/iconMT.png');
+    background-repeat: no-repeat;
+    color: red;
+}
+.cssAAAActive
+{
+    height: 30px;
+    background-image: url('../../Images/Icon/iconMT.png');
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.cssTDIcon
+{
+    width: 235px;
+    margin-left: 5px;
+    border-bottom: 1px solid #A4B8C3;
+    border-right: 1px solid #A4B8C3;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.cssTDIcon:hover
+{
+    background: #EFFFDF;
+}
+.cssTDIconActive
+{
+    background: #DDFFBB;
+}
+
+.cssTDIcon2
+{
+    width: 235px;
+    margin-left: 5px;
+    border-right: 1px solid #A4B8C3;
+    height: 70px;
+}
+
+.CssKBadNo
+{
+    float: none;
+    text-align: left;
+    font-size: 13px;
+    width: auto;
+    font-family: tahoma;
+    height: 100%;
+}
+
+
+.product-gr
+{
+    clear: both;
+    margin: 15px 6px 0;
+    overflow: hidden;
+}
+.product-gr li
+{
+    border: 1px solid #A4B8C3;
+    float: left;
+    margin: 0 0px 0px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    position: relative;
+    text-align: center;
+    list-style: none;
+}
+.product-gr li a
+{
+    font-weight: bold;
+}
+.cssAlpha
+{
+    background-color: #F5F5F5;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}

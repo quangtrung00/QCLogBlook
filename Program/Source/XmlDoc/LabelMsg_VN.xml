@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PccMsg>
+	<MenuItem>
+		<M000001>歡迎(hoan nghenh)</M000001>
+		<M000002>光臨(den tham)</M000002>
+		<M000011>個人資料修改(sua doi du lieu ca nhan)</M000011>
+		<M000012>加入系統(dang nhap he thong)</M000012>
+		<M000013>語言轉換(thay doi ngon ngu)</M000013>
+		<M153322>待審申請單(don xin doi duyet)</M153322>
+		<M153323>群組管理(quan ly nhom)</M153323>
+		<M153324>使用者管理(quan ly user)</M153324>
+		<M153325>審核使用者(kiem duyet user)</M153325>
+		<M153326>廠別管理(quan ly xuong)</M153326>
+		<M153327>廠群組管理(quan ly nhom xuong)</M153327>
+    
+    <!--QC-->
+    <M2492986>Hồi trả kiểm nghiệm của QC cố định</M2492986>
+    <M2492987>Hồi trả kiểm nghiệm của QC kiểm tra</M2492987>
+    <M2492988>Hồi trả kiểm nghiệm Log Book</M2492988>
+    <!--Report-->
+    <M2492989>Báo biểu Log Book</M2492989>
+    <M2492990>Bảng thống kê Log Book</M2492990>
+    <!--Conifg-->
+    <M2492991>Thiết lập nhân viên kiểm tra/cố định của các tổ</M2492991>
+    <M2492992>Thiết lập hình ảnh tiêu chuẩn không đạt</M2492992>
+    <!--Admin-->
+    <M2492993>Quản lý nhóm</M2492993>
+    <M2492994>Quản lý người sử dụng</M2492994>
+    <M2492995>Duyệt người sử dụng</M2492995>
+    <M2492996>Quản lý xưởng</M2492996>
+    <M2492997>Quản lý nhóm xưởng</M2492997>
+	</MenuItem>
+	<FlowManage>
+		<FlowMaintain>
+			<FlowMaintain142>
+				<lbl0001>ma so</lbl0001> 
+				<lbl0002>ten bo phan</lbl0002> 
+				<lbl0003>ten bao bieu</lbl0003> 
+			</FlowMaintain142>
+			<Step2>
+				<lbl0001>Ma diem nut</lbl0001> 
+				<lbl0002>Ten bao bieu</lbl0002> 
+				<lbl0003>Nhan vien diem nut</lbl0003> 
+				<lbl0004>Ten bo phan</lbl0004> 
+				<lbl0005>Nguoi dai dien</lbl0005> 
+			</Step2>
+		</FlowMaintain>
+	</FlowManage>
+	<SysManager>
+		<Manager>
+			<lbl0001 Type="T">Quan ly quyen han user cua he thong file tu tai</lbl0001> 
+			<lbl0002 Type="T">Phan quan ly phan quyen user cua he thong file tai vu</lbl0002> 
+			<lbl0003 Type="B">Quan ly user</lbl0003> 
+			<lbl0004 Type="B">Quan ly chon lua</lbl0004> 
+			<lbl0005 Type="B">Quan ly phan quyen user</lbl0005> 
+			<lbl0006 Type="B">Them moi chon lua</lbl0006> 
+			<lbl0007 Type="T">Them moi phan chon lua he thong file tu tai</lbl0007> 
+			<lbl0008 Type="T">Them moi phan chon lua he thong file tai vu</lbl0008> 
+			<lbl0009 Type="L">Ma so chon lua: </lbl0009> 
+			<lbl0010 Type="L">Ten chon lua: </lbl0010> 
+			<lbl0011 Type="L">Lien ket chon lua: </lbl0011> 
+			<lbl0012 Type="T">Quan ly phan quyen user cua he thong test</lbl0012> 
+			<lbl0013 Type="T">Quan ly phan quyen user cua he thong quan ly he thong</lbl0013> 
+			<lbl0014 Type="T">Them moi he thong test de chon lua</lbl0014> 
+			<lbl0015 Type="T">Them moi he thong quan ly de chon lua</lbl0015> 
+			<lbl0016 Type="T">Them moi</lbl0016> 
+			<lbl0017 Type="T">He thong chon lua</lbl0017> 
+			<lbl0018 Type="T">Quan ly phan quyen user</lbl0018> 
+			<lbl0019 Type="H">Ma so</lbl0019> 
+			<lbl0020 Type="H">Ma so chon lua</lbl0020> 
+			<lbl0021 Type="H">Ten chon lua</lbl0021> 
+			<lbl0022 Type="H">Lien ket chon lua</lbl0022> 
+		</Manager>
+		<UserAuthManager>
+			<lbl0001 Type="B">Nhap user</lbl0001> 
+		</UserAuthManager>
+		<UserManager>
+			<lbl0001 Type="B">Them moi user</lbl0001> 
+			<lbl0002 Type="B">Nhap user</lbl0002> 
+			<lbl0003 Type="L">Họ Tên: </lbl0003> 
+			<lbl0004 Type="L">Tài Khoản Email: </lbl0004> 
+			<lbl0005 Type="L">Password dang nhap: </lbl0005> 
+			<lbl0006 Type="L">Xac dinh password: </lbl0006> 
+			<lbl0007 Type="L">Bộ Phận: </lbl0007> 
+			<lbl0008 Type="L">Mã Số Nhân Viên: </lbl0008> 
+			<lbl0009 Type="L">So noi bo: </lbl0009> 
+			<lbl0010 Type="L">Dia chi email: </lbl0010> 
+			<lbl0011 Type="L">Quan ly phan quyen: </lbl0011> 
+			<lbl0012 Type="L">Bộ Phận: </lbl0012> 
+			<lbl0013 Type="L">Họ Tên: </lbl0013> 
+			<lbl0014 Type="I">Ban van chua chon user !</lbl0014> 
+			<lbl0015 Type="I">Chu y: mat ma them moi cho User la [password] !</lbl0015> 
+			<lbl0016 Type="B">Xoa user</lbl0016> 
+			<lbl0017 Type="B">Them moi du lieu user</lbl0017> 
+			<lbl0018 Type="H">Mã Số</lbl0018> 
+			<lbl0019 Type="H">Họ Tên</lbl0019> 
+			<lbl0020 Type="H">Tai khoan dang nhap</lbl0020> 
+			<lbl0021 Type="H">password dang nhap</lbl0021> 
+			<lbl0022 Type="H">Bộ Phận</lbl0022> 
+			<lbl0023 Type="H">Mã Số Nhân Viên</lbl0023> 
+			<lbl0024 Type="H">So may noi bo</lbl0024> 
+			<lbl0025 Type="H">Địa Chỉ Email</lbl0025> 
+			<lbl0026 Type="H">Chon lua</lbl0026> 
+			<lbl0027 Type="L">Quan ly du lieu user</lbl0027> 
+			<lbl0028 Type="L">Nguoi quan ly: </lbl0028> 
+			<lbl0029 Type="L">Tinh trang user</lbl0029> 
+			<lbl0030 Type="L">Ho ten user</lbl0030> 
+			<lbl0031 Type="H">Ghi Chú</lbl0031> 
+			<lbl0032 Type="H">Tài Khoản</lbl0032> 
+			<lbl0033 Type="H">Tai khoan email</lbl0033> 
+			<lbl0034 Type="H">So may noi bo</lbl0034> 
+			<lbl0035 Type="H">Tong quat</lbl0035> 
+			<lbl0036 Type="H">Quan ly</lbl0036> 
+			<lbl0037 Type="H">Nhom</lbl0037> 
+			<lbl0038 Type="H">Quan ly user</lbl0038> 
+			<lbl0039 Type="H">Du lieu tai vao co loi</lbl0039> 
+		</UserManager>
+		<ApManager>
+			<lbl0001 Type="B">Quan ly chuong trinh ung dung</lbl0001> 
+			<lbl0002 Type="B">Them moi chuong trinh ung dung</lbl0002> 
+			<lbl0003 Type="L">Ma so chuong trinh ung dung: </lbl0003> 
+			<lbl0004 Type="L">Ten chuong trinh ung dung: </lbl0004> 
+			<lbl0005 Type="L">Lien ket chuong trinh ung dung: </lbl0005> 
+			<lbl0006 Type="L">Them moi chon chuong trinh ung dung</lbl0006> 
+			<lbl0007 Type="H">Ma so</lbl0007> 
+			<lbl0008 Type="H">Ma so chuong trinh ung dung</lbl0008> 
+			<lbl0009 Type="H">Ten chuong trinh ung dung</lbl0009> 
+			<lbl0010 Type="H">Lien ket chuong trinh ung dung</lbl0010> 
+			<lbl0011 Type="L">Muc luc chuong trinh ung dung: </lbl0011> 
+			<lbl0012 Type="H">Muc luc chuong trinh ung dun</lbl0012> 
+			<lbl0013 Type="H">Quan ly</lbl0013> 
+			<lbl0014 Type="H">Bien tap chuong trinh ung dung nay</lbl0014> 
+			<lbl0015 Type="H">Xoa chuong trinh ung dung nay</lbl0015> 
+			<lbl0016 Type="L">Sua phan chon chuong trinh ung dung</lbl0016> 
+			<lbl0017 Type="H">Tong quan</lbl0017> 
+			<lbl0018 Type="A">Tong quan ve lua chon chuong trinh ung dung</lbl0018> 
+		</ApManager>
+		<MenuManage>
+			<lbl0001 Type="T">Quan ly lua chon</lbl0001> 
+			<lbl0002 Type="L">Ten chuong trinh ung dung: </lbl0002> 
+			<lbl0003 Type="L">Ten chon lua: </lbl0003> 
+			<lbl0004 Type="B">Them moi chon lua</lbl0004> 
+			<lbl0005 Type="H">Ma so</lbl0005> 
+			<lbl0006 Type="H">Lua chon thuoc AP</lbl0006> 
+			<lbl0007 Type="H">Ma so lua chon</lbl0007> 
+			<lbl0008 Type="H">Ten chon lua</lbl0008> 
+			<lbl0009 Type="H">Lien ket chon lua</lbl0009> 
+			<lbl0010 Type="H">Quan ly</lbl0010> 
+			<lbl0011 Type="H">Khu quan ly</lbl0011> 
+			<lbl0012 Type="H">Bien tap phan chon lua nay</lbl0012> 
+			<lbl0013 Type="H">Xoa phan chon lua nay</lbl0013> 
+			<lbl0014 Type="L">Ma so lua chon: </lbl0014> 
+			<lbl0015 Type="L">Lien ket chon lua: </lbl0015> 
+			<lbl0016 Type="L">Lua chon thuoc AP: </lbl0016> 
+			<lbl0017 Type="L">Tim kiem tieu de: </lbl0017> 
+			<lbl0018 Type="L">Tieu de khu quan ly: </lbl0018> 
+			<lbl0019 Type="T">Cap nhat chon lua</lbl0019> 
+		</MenuManage>
+	</SysManager>
+	<ADTPurDoc>
+		<ClassManage>
+			<lbl0001 Type="T">Loai quan ly</lbl0001> 
+			<lbl0002 Type="L">Them moi loai chinh</lbl0002> 
+			<lbl0003 Type="L">Them moi loai phu</lbl0003> 
+			<lbl0004 Type="L">Ma loai chinh</lbl0004> 
+			<lbl0005 Type="L">Ma loai phu</lbl0005> 
+			<lbl0006 Type="L">Ten loai chinh</lbl0006> 
+			<lbl0007 Type="L">Ten loai phu</lbl0007> 
+			<lbl0008 Type="R">Loai chinh</lbl0008> 
+			<lbl0009 Type="R">Loai phu</lbl0009> 
+			<lbl0010 Type="L">Ten loai chinh</lbl0010> 
+			<lbl0011 Type="L">Quan ly loai chinh/phu</lbl0011> 
+			<lbl0012 Type="B">Them moi loai</lbl0012> 
+			<lbl0013 Type="L">Ma so</lbl0013> 
+			<lbl0014 Type="D">Tong quan ve loai phu</lbl0014> 
+		</ClassManage>
+		<View>
+			<lbl0001 Type="T">Phan preview cua knowledge document</lbl0001> 
+			<lbl0002 Type="L">Cach thuc tim kiem</lbl0002> 
+			<lbl0003 Type="L">Ten loai chinh</lbl0003> 
+			<lbl0004 Type="L">Ten loai phu</lbl0004> 
+			<lbl0005 Type="L">Ma so tai lieu</lbl0005> 
+			<lbl0006 Type="L">Ngay cua tai lieu</lbl0006> 
+			<lbl0007 Type="L">Tieu de</lbl0007> 
+			<lbl0008 Type="D">Ma so</lbl0008> 
+			<lbl0009 Type="D">Ten file</lbl0009> 
+			<lbl0010 Type="D">Chi tiet file</lbl0010> 
+			<lbl0011 Type="D">Ghi chu</lbl0011> 
+			<lbl0012 Type="T" /> 
+			<lbl0013 Type="T" /> 
+		</View>
+		<DocManage>
+			<lbl0001 Type="T">Phan quan ly cua knowledge document</lbl0001> 
+			<lbl0002 Type="L">Cach thuc tim kiem</lbl0002> 
+			<lbl0003 Type="L">Ten loai chinh</lbl0003> 
+			<lbl0004 Type="L">Ten loai phu</lbl0004> 
+			<lbl0005 Type="L">Ma so tai lieu</lbl0005> 
+			<lbl0006 Type="L">Ngay cua tai lieu</lbl0006> 
+			<lbl0007 Type="L">Tieu de</lbl0007> 
+			<lbl0008 Type="D">Ma so</lbl0008> 
+			<lbl0009 Type="D">File tai lieu</lbl0009> 
+			<lbl0010 Type="D">E-Mail thong bao</lbl0010> 
+			<lbl0011 Type="D">Quan ly tai lieu</lbl0011> 
+			<lbl0012 Type="T">Gui email thong bao</lbl0012> 
+			<lbl0013 Type="T">Cap nhat tai lieu nay</lbl0013> 
+			<lbl0014 Type="T">Xoa tai lieu nay</lbl0014> 
+			<lbl0015 Type="L">Xac nhan gui email nay</lbl0015> 
+			<lbl0016 Type="L">He thong gui(</lbl0016> 
+			<lbl0017 Type="L">)Xin xac nhan cac nhan vien trong bang phia duoi: </lbl0017> 
+			<lbl0018 Type="T">Tro ve tang tren de chon lua</lbl0018> 
+			<lbl0019 Type="T">Ho ten user</lbl0019> 
+			<lbl0020 Type="T">Mail box</lbl0020> 
+			<lbl0021 Type="L">Gui di</lbl0021> 
+			<lbl0022 Type="B">Gui thong bao</lbl0022> 
+		</DocManage>
+		<DocSecManage>
+			<lbl0001 Type="T">Them moi phan knowledge document</lbl0001> 
+			<lbl0002 Type="L">Tieu de tai lieu</lbl0002> 
+			<lbl0003 Type="L">Ten loai chinh</lbl0003> 
+			<lbl0004 Type="L">Ten loai phu</lbl0004> 
+			<lbl0005 Type="L">Ngay cua tai lieu</lbl0005> 
+			<lbl0006 Type="L">Ghi chu tai lieu</lbl0006> 
+			<lbl0007 Type="L">Tai lieu tuong quan</lbl0007> 
+			<lbl0008 Type="D">Ma so</lbl0008> 
+			<lbl0009 Type="D">Ma so tai lieu</lbl0009> 
+			<lbl0010 Type="D">Tieu de</lbl0010> 
+			<lbl0011 Type="D">Ten loai phu</lbl0011> 
+			<lbl0012 Type="D">Ngay cua tai lieu</lbl0012> 
+			<lbl0013 Type="D">Quan ly quyen han</lbl0013> 
+			<lbl0014 Type="T">Sua doi quyen han cua user</lbl0014> 
+			<lbl0015 Type="T">Quan ly quyen han cua user</lbl0015> 
+			<lbl0016 Type="L">Cach thuc tim kiem</lbl0016> 
+			<lbl0017 Type="B">Them moi phan knowledge document</lbl0017> 
+			<lbl0018 Type="B">Cap nhat quyen han cua user</lbl0018> 
+			<lbl0019 Type="L">Tinh trang cua user</lbl0019> 
+			<lbl0020 Type="L">Ho ten uesr</lbl0020> 
+			<lbl0021 Type="L">Phan quyen user trong knowledge document</lbl0021> 
+			<lbl0022 Type="D">Ho ten user</lbl0022> 
+			<lbl0023 Type="D">Thuoc bo phan</lbl0023> 
+			<lbl0024 Type="D">E-Mail</lbl0024> 
+			<lbl0025 Type="D">Quyen han xem luot</lbl0025> 
+			<lbl0026 Type="D">Quyen han gui tin</lbl0026> 
+			<lbl0027 Type="D">Them moi quyen han</lbl0027> 
+			<lbl0028 Type="D">Xoa quyen han</lbl0028> 
+			<lbl0029 Type="H">Tro ve tang tren de chon lua</lbl0029> 
+			<lbl0030 Type="T">Gui email thong bao</lbl0030> 
+		</DocSecManage>
+		<GroupManage>
+			<lbl0001 Type="H">Quan ly nhom</lbl0001> 
+			<lbl0002 Type="L">Ten nhom: </lbl0002> 
+			<lbl0003 Type="H">Them nhom</lbl0003> 
+			<lbl0004 Type="H">Ma so</lbl0004> 
+			<lbl0030 Type="H">Tai khoan email</lbl0030> 
+			<lbl0005 Type="H">Ten user</lbl0005> 
+			<lbl0006 Type="H">Xuong</lbl0006> 
+			<lbl0007 Type="H">Bo phan</lbl0007> 
+			<lbl0031 Type="H">Email</lbl0031> 
+			<lbl0008 Type="H">Chon lu</lbl0008> 
+			<lbl0009 Type="H">Loai nhom: </lbl0009> 
+			<lbl0010 Type="M">Ten nhom khong duoc de trong !</lbl0010> 
+			<lbl0011 Type="H">Xoa</lbl0011> 
+			<lbl0012 Type="H">Ten chon lua</lbl0012> 
+			<lbl0013 Type="H">Hien thi phan quyen</lbl0013> 
+			<lbl0014 Type="H">Them moi quyen han</lbl0014> 
+			<lbl0015 Type="H">Cap nhat quyen han</lbl0015> 
+			<lbl0016 Type="H">Xoa quyen</lbl0016> 
+			<lbl0017 Type="H">Phan quyen bao bieu</lbl0017> 
+			<lbl0018 Type="H">Quyen gui mal</lbl0018> 
+			<lbl0019 Type="H">Cap nhat gui di</lbl0019> 
+			<lbl0020 Type="L">Tong quat user</lbl0020> 
+			<lbl0021 Type="L">Tong quat chon don</lbl0021> 
+			<lbl0022 Type="H">Ten nhom (Chon ten nhom co the dem user nhap vao nhom)</lbl0022> 
+			<lbl0023 Type="L">Xin chon lua---</lbl0023> 
+			<lbl0024 Type="L">---Yeu cau nhap nhom !</lbl0024> 
+			<lbl0025 Type="H">Ten nhom</lbl0025> 
+			<lbl0026 Type="H">Tong quan quyen han chon don</lbl0026> 
+			<lbl0027 Type="A">Tro ve nhom</lbl0027> 
+			<lbl0028 Type="A">Sua doi du lieu cua user nay</lbl0028> 
+			<lbl0029 Type="A">Huy bo quyen han vao he thong nay cua user nay</lbl0029> 
+		</GroupManage>
+		<Discuss>
+			<lbl0001 Type="T">Dua ra tieu de moi</lbl0001> 
+			<lbl0002 Type="T">Dua cau tra loi</lbl0002> 
+			<lbl0003 Type="T">Sua doi muc</lbl0003> 
+			<lbl0004 Type="L">Tac gia:</lbl0004> 
+			<lbl0005 Type="L">Chu de:</lbl0005> 
+			<lbl0006 Type="L">Noi dung:</lbl0006> 
+			<lbl0007 Type="L">Them file dinh kem: </lbl0007> 
+			<lbl0008 Type="L">Xoa file dinh kem: </lbl0008> 
+			<lbl0009 Type="T">Phan thao luan cua tu tai</lbl0009> 
+			<lbl0010 Type="A">Phat bieu chu de</lbl0010> 
+			<lbl0011 Type="A">Dua theo thu tu thoi gian</lbl0011> 
+			<lbl0012 Type="L">Tu khoa: </lbl0012> 
+			<lbl0013 Type="L">Thoi gian sau cung: </lbl0013> 
+			<lbl0014 Type="D">Chu de</lbl0014> 
+			<lbl0015 Type="D">Noi dung van ban</lbl0015> 
+			<lbl0016 Type="D">Tac gia</lbl0016> 
+			<lbl0017 Type="L">Nguoi phat bieu</lbl0017> 
+			<lbl0018 Type="T">Hoi am</lbl0018> 
+			<lbl0019 Type="T">Thoi gian sau cung</lbl0019> 
+			<lbl0020 Type="T">An tieu de</lbl0020> 
+			<lbl0021 Type="L">Quan ly van kien</lbl0021> 
+			<lbl0022 Type="B">Chi dinh nguoi tra loi: </lbl0022> 
+			<lbl0023 Type="A">Tro ve tang tren de chon lua</lbl0023> 
+			<lbl0024 Type="L">Ma so</lbl0024> 
+			<lbl0025 Type="A">Kiem tra va tra loi</lbl0025> 
+			<lbl0026 Type="A">Sua doi tai lieu nay</lbl0026> 
+			<lbl0027 Type="A">Xoa tai lieu nay</lbl0027> 
+			<lbl0028 Type="L">Thoi gian: </lbl0028> 
+			<lbl0029 Type="A">Tai lieu hoi dap</lbl0029> 
+			<lbl0030 Type="A">Dua ra chu de</lbl0030> 
+			<lbl0031 Type="T">An chu de nay</lbl0031> 
+			<lbl0032 Type="T">Hien thi chu de nay</lbl0032> 
+		</Discuss>
+	</ADTPurDoc>
+	<OrdSignWeb>
+		<OrdSign>
+			<lbl0001 Type="T">Ma so</lbl0001> 
+			<lbl0002 Type="T">Ma don xin phep</lbl0002> 
+			<lbl0003 Type="T">Ten don xin phep</lbl0003> 
+			<lbl0004 Type="L">Ma don dat hang</lbl0004> 
+			<lbl0005 Type="L">Ma cong ty</lbl0005> 
+			<lbl0006 Type="L">Mã Xưởng</lbl0006> 
+			<lbl0007 Type="L">Nguoi xin phep</lbl0007> 
+			<lbl0008 Type="L">Tong quan</lbl0008> 
+			<lbl0009 Type="T">Chon lua</lbl0009> 
+			<lbl0010 Type="A">Duyet</lbl0010> 
+			<lbl0011 Type="A">Ngay xin phep</lbl0011> 
+			<lbl0012 Type="L">Lich trinh ky duyet</lbl0012> 
+			<lbl0013 Type="L">Phe chuan</lbl0013> 
+			<lbl0014 Type="D">Bai bo</lbl0014> 
+			<lbl0015 Type="D">Thoat duyet</lbl0015> 
+			<lbl0016 Type="D">Thong bao sua doi</lbl0016> 
+			<lbl0017 Type="L">Phan kiem duyet</lbl0017> 
+			<lbl0018 Type="T">Nhan vien kiem duyet</lbl0018> 
+			<lbl0019 Type="T">Ngay kiem duyet</lbl0019> 
+			<lbl0020 Type="T">Ghi chu</lbl0020> 
+			<lbl0021 Type="L">Trang thai kiem duyet</lbl0021> 
+			<!-- here
+			--> 
+			<lbl0022 Type="B">Chi dinh nguoi tra loi: </lbl0022> 
+			<lbl0023 Type="A">Tro ve tang tren de chon lua</lbl0023> 
+			<lbl0024 Type="L">Ma so</lbl0024> 
+			<lbl0025 Type="A">Tra loi tong quat</lbl0025> 
+			<lbl0026 Type="A">Sua doi tai lieu nay</lbl0026> 
+			<lbl0027 Type="A">Xoa tai lieu nay</lbl0027> 
+			<lbl0028 Type="L">Thoi gian: </lbl0028> 
+			<lbl0029 Type="A">Tai lieu hoi dap</lbl0029> 
+			<lbl0030 Type="A">Dua ra tieu de</lbl0030> 
+			<lbl0031 Type="T">An tieu de nay</lbl0031> 
+			<lbl0032 Type="T">Hien thi tieu de nay</lbl0032> 
+		</OrdSign>
+	</OrdSignWeb>
+  <QC>
+      <Message>
+          <lbl0001 Type="T">Tìm không thấy dữ liệu</lbl0001>// 查無資料
+          <lbl0002 Type="T">Chọn</lbl0002>//請選擇
+      </Message>
+    <Tilte>
+      <lbl0001 Type="T">Mã Tổ</lbl0001>
+      <lbl0002 Type="T">Tên Tổ</lbl0002>
+      <lbl0003 Type="T">Loại Tổ</lbl0003>
+      <lbl0004 Type="T">Bộ Phận</lbl0004>
+      <lbl0005 Type="T">Cố Định</lbl0005>
+      <lbl0006 Type="T">Kiểm Tra</lbl0006>
+      <lbl0007 Type="T">Toà Nhà</lbl0007>
+      <lbl0008 Type="T">Tầng Lầu</lbl0008>
+      <lbl0009 Type="T">Ghi Chú Dây Chuyền SX</lbl0009>
+      <lbl0010 Type="T">Hình ảnh không đạt</lbl0010>
+      <lbl0011 Type="T">Thiết lập điều kiện</lbl0011>
+      <lbl0012 Type="T">Người thiết lập</lbl0012>
+      <lbl0013 Type="T">Thời gian thiết lập</lbl0013>//
+      <lbl0014 Type="T">Điều kiện</lbl0014>//
+      <lbl0015 Type="T">Số lần không đạt</lbl0015>//
+      <lbl0016 Type="T">Đường dẩn</lbl0016>
+      <lbl0017 Type="T">Trở Về</lbl0017>
+	    <lbl0018 Type="T">Mã xưỡng</lbl0018>
+	    <lbl0019 Type="T">Ngày tháng</lbl0019>
+		  <lbl0020 Type="T">QC cố định</lbl0020>
+		  <lbl0021 Type="T">NV kiểm tra</lbl0021>
+		  <lbl0022 Type="T">SL đạt</lbl0022>
+		  <lbl0023 Type="T">SL không đạt</lbl0023>
+		  <lbl0024 Type="T">Tổng số rút kiểm</lbl0024>
+		  <lbl0025 Type="T">Tỷ lệ đạt</lbl0025>
+		  <lbl0026 Type="T">Cập nhật thành công !</lbl0026>//更新成功
+		  <lbl0027 Type="T">Hãy chọn mã đơn !</lbl0027>//
+		  <lbl0028 Type="T">Hãy chọn nguyên nhân lỗi !</lbl0028>//請選原因出錯
+		  <lbl0029 Type="T">Số lượng không hợp lệ !</lbl0029>//數量不合理
+		  <lbl0030 Type="T">chọn user qc cố định !</lbl0030>//選固定qc user
+		  <lbl0031 Type="T">Mốc thời gian không hợp lệ !</lbl0031>//找時間不合理
+		  <lbl0032 Type="T">Tổng số rút kiểm không hợp lệ!</lbl0032>//總數抽檢不符合
+      <lbl0033 Type="T">Chức năng</lbl0033>//功能
+      <lbl0034 Type="T">Số thẻ</lbl0034>//工號
+        <lbl0035 Type="T">Giao diện tìm kiếm</lbl0035>//
+        <lbl0036 Type="T">QC Log Book Review</lbl0036>//
+    </Tilte>
+  </QC>
+	<btnReset Type="B">Thiet lap lai</btnReset> 
+	<btnAllSelected Type="B">Chon tat ca</btnAllSelected> 
+	<btnOK Type="B">Xác định</btnOK> 
+	<btnCancel Type="B">Hủy bỏ</btnCancel> 
+	<btnAddNew Type="B">Them moi</btnAddNew> 
+	<btnAddNewAndComeOn Type="B">Them moi va nhap vao</btnAddNewAndComeOn> 
+	<SelectPlease Type="B">---Xin chon lua---</SelectPlease> 
+	<btnQuery Type="B">Tìm Kiếm</btnQuery> 
+	<btnClear Type="B">Xoá Sạch</btnClear> 
+	<btnUpdate Type="B">Cap nhat</btnUpdate> 
+	<btnEdit Type="B">Bien tap</btnEdit> 
+	<btnDelete Type="B">Xoa</btnDelete> 
+	<msgLoadDataError Type="W">Nhap du lieu bao loi !</msgLoadDataError> 
+	<msgAskTransfer>Ban co muon chuyen sang tieng hoa khong ?</msgAskTransfer> 
+	<msgWelcome>Hoan nghenh</msgWelcome> 
+	<msgWelcome2>Moi vao</msgWelcome2> 
+	<msgMenu>Chon lua</msgMenu> 
+	<LinkFirst Type="L">Trang thu nhat</LinkFirst> 
+	<LinkPrev Type="L">Trang truoc</LinkPrev> 
+	<LinkNext Type="L">Trang sau</LinkNext> 
+	<LinkLast Type="L">Trang cuoi</LinkLast> 
+	<ViewGeneror>Tong quan phan chung</ViewGeneror> 
+	<ViewManage>Tong quan phan quan ly</ViewManage> 
+	<ViewNormal>Tong quan phan nay</ViewNormal> 
+</PccMsg>

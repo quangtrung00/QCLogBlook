@@ -1,0 +1,177 @@
+﻿.glossymenu
+{
+    /*width:220px; width of menu*/
+    width: 100%;
+    overflow: hidden;
+}
+
+.glossymenu a.menuitem
+{
+    background-image: url('images/m_menu.gif');
+    background-repeat: repeat-x;
+    background-color: #d5e1ff;
+    font: 11px "Tahoma" , "Trebuchet MS" , Verdana, Helvetica, sans-serif;
+    color: green;
+    display: block; /* position: relative;To help in the anchoring of the ".statusicon" icon image*/
+    width: auto;
+    padding: 4px 0px 5px 10px;
+    height: 19px;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+    vertical-align: middle;
+    color: #1A1AFF;
+}
+.glossymenu a.menuitem:hover
+{
+    color:Green
+}
+
+
+.glossymenu a.menuitem>img /*if: Area Image text*/
+{
+    float:left;
+    vertical-align:bottom;
+}
+.glossymenu a.menuitem .area_item /*Area span*/
+{
+    float:left;    
+    font-family:Tahoma;
+    font-weight:normal;
+    font-size:12px
+}
+
+
+.glossymenu a.menuitem .area_item img /*Area Image icon*/
+{
+    padding-right:5px;
+    vertical-align:middle;
+}
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active
+{
+    /*color: white;*/
+}
+
+
+.glossymenu a.menuitem .accordsuffix
+{    
+    text-align: right;  
+    margin-right:20px;
+   
+
+}
+.glossymenu a.menuitem .statusicon
+{
+    /*CSS for icon image that gets dynamically added to headers*/ /*position: absolute;*/ /* top: 5px;     right: 5px;*/
+    border: none;
+     padding-top:5px;
+}
+
+
+
+.glossymenu a.menuitem:hover
+{
+    /*background-image: url(../../../Images/Body/menu/glossyback2.gif);*/
+    color: darkred;
+}
+
+.glossymenu div.submenu
+{
+    /*DIV that contains each sub menu*/
+    background: white;
+}
+
+.glossymenu div.submenu ul
+{
+    /*UL of each sub menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.glossymenu div.submenu ul li
+{
+    border-bottom: #CCCCCC 1px solid;
+}
+
+.glossymenu div.submenu ul li a
+{
+    display: block;
+    font: normal 11px "Tahoma" , "Trebuchet MS" , Verdana, Helvetica, sans-serif;
+    color: #005413;
+    text-decoration: none;
+    padding: 5px 0px 5px 10px;
+    text-align: left;
+}
+
+.menu_Link
+{
+    padding: 3px 0px 3px 20px;
+    font-size: 11px;
+    font-family: Verdana;
+    cursor: pointer;
+    color: #3C3C3C;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCCCCC;
+}
+
+.menu_Link:hover
+{
+    background-color: #DFEBFD;
+}
+
+.menu_Link img
+{
+    padding-right:5px; vertical-align:middle;
+}
+
+.glossymenu div.submenu ul li a:hover
+{
+    background: black;
+    color: olivedrab;
+}
+/**Edit**/
+.glossymenu div.submenuFilm
+{
+    /*DIV that contains each sub menu*/
+    background: white;
+}
+
+.glossymenu div.submenuFilm ul
+{
+    /*UL of each sub menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.glossymenu div.submenuFilm ul li
+{
+    border-bottom: sandybrown 1px solid;
+}
+
+.glossymenu div.submenuFilm ul li a
+{
+    display: block;
+    font: normal 11px "Tahoma" , "Trebuchet MS" , Verdana, Helvetica, sans-serif;
+    color: #005413;
+    text-decoration: none;
+    padding: 5px 0px 5px 10px;
+    text-align: left;
+}
+
+.glossymenu div.submenuFilm ul li a:hover
+{
+    background: honeydew;
+    color: olivedrab;
+}
+
+.glossymenu .selected
+{
+    font-weight: bold !important;
+    color: #ff0000 !important;
+}

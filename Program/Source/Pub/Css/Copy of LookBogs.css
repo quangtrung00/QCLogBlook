@@ -1,0 +1,123 @@
+﻿body 
+{
+    font-family:Arial;
+    font-size:12px;
+    padding:0 0 0 0;
+}
+table
+{  
+   border:1px solid #000000;
+    width:100%;  
+    padding:0px;
+    margin:0px;
+ 
+}
+
+#divMain
+{
+    border:0px;
+}
+
+.col_tieude_name
+{
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    font-size: 10pt;
+	font-family: Verdana;
+	BACKGROUND-COLOR: #99CCFF;
+	text-align:left;
+	
+}
+.col_tieude
+{
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    font-size: 10pt;
+	font-family: Verdana;
+	BACKGROUND-COLOR: #99CCFF;
+	text-align:center;
+	
+}
+
+.col_chan
+{
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;    
+    text-align:left;
+}
+
+.col_chan_right
+{
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    
+    text-align:right;
+}
+
+.col_le
+{
+     border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+}
+
+.col_vang
+{
+    background-color:#FFCC00;
+      border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+}
+
+.col_xanh
+{
+    background-color:#99CC00;
+      border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+}
+
+.col_vang_total
+{
+    background-color:#FFCC00;
+      border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+    font-weight:bold;
+}
+
+.col_xanh_total
+{
+    background-color:#99CC00;
+      border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+    font-weight:bold;
+}
+
+.col_total
+{
+    background-color:#C2F3C2;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+    font-weight:bold;
+}
+
+.col_quy_total
+{
+    background-color:#FFFFFF;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:right;
+    font-weight:bold;
+}
+.col_nodata
+{
+    background-color:#C2F3C2;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+    font-weight:bold;
+    color:Red;
+}

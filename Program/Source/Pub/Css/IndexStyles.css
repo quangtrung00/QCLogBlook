@@ -1,0 +1,54 @@
+﻿.CoverMenu
+{
+    padding: 10px;
+    background: #fff;
+    /*background-image:url('../EasyLayout/ImgBody/BG-CENTER.png');*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: #d2d2d2 1px solid;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+   
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -ms-interpolation-mode: bicubic;    
+    
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #000000;
+
+}
+.CoverMenu tr td
+{
+    text-align: center; /*word-wrap: break-word;     word-break: break-all;*/
+    width: 160px;
+}
+.CoverMenu tr td div
+{
+    padding: 5px 0px 20px 0px;
+    cursor: pointer;
+}
+.CoverMenu tr td div:hover, div:active
+{
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+ box-shadow: 0px 1px 4px #000099;
+    box-shadow: 0 0 5px #000099; /*background-color:Aqua;*/
+}
+
+.CoverMenu tr td  div:hover img
+{  
+   
+}
+
+
+.CoverMenu tr td a
+{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #000099;
+    text-shadow: 0px 0px 1px #818181; /*text-shadow: 0px 0px 0px #999, 0px 0px 0px #888, 0px 0px 0px #777, 0px 0px 0px #666, 0px 0px 0px #555, 0px 1px 0px #444, 0px 0px 0px #333, 0px 1px 0px #818181;*/
+}

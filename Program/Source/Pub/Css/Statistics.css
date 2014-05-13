@@ -1,0 +1,141 @@
+﻿
+h1
+{
+    text-align:center;
+    font-size:24px;
+}
+
+table
+{  
+     border-left:1px solid #97C6DD;
+    border-top:1px solid #97C6DD;
+    width:100%;  
+    padding:0px;
+    margin:0px;
+ 
+}
+
+#divMain
+{
+    border:0px;
+}
+
+.col_tieude
+{
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    font-size: 10pt;
+	font-family: Verdana;
+	BACKGROUND-COLOR: #B2F0FF;
+	text-align:center;
+	font-weight:bold;
+}
+
+#search
+{
+    text-align:center;
+    width:75px;
+}
+#searchbuttondiv
+{
+    text-align:center;
+}
+.col_tieude_quy
+{
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    font-size: 10pt;
+	font-family: Verdana;
+	BACKGROUND-COLOR: #FFFF00;
+	text-align:center;
+	
+}
+
+.col_chan
+{
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;    
+}
+
+.col_chan_center
+{
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+}
+
+.col_le
+{
+     border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+}
+
+.col_vang
+{
+    background-color:#FFCC00;
+      border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+}
+
+.col_xanh
+{
+    background-color:#99CC00;
+      border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+}
+
+.col_do
+{
+    background-color:#FF3300;
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+}
+
+.col_vang_total
+{
+    background-color:#FFCC00;
+      border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+    font-weight:bold;
+}
+
+.col_xanh_total
+{
+    background-color:#99CC00;
+      border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+    font-weight:bold;
+}
+
+.col_total
+{
+    background-color:#C2F3C2;
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+    font-weight:bold;
+}
+
+.col_quy_total
+{
+    background-color:#FFFFFF;
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+    font-weight:bold;
+}
+.col_nodata
+{
+    background-color:#C2F3C2;
+    border-right:1px solid #97C6DD;
+    border-bottom:1px solid #97C6DD;
+    text-align:center;
+    font-weight:bold;
+    color:Red;
+}
